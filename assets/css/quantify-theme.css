@@ -1,0 +1,186 @@
+/* ---------------------------------------
+	Quantify Themes 1.0.0 
+---------------------------------------	
+* 	Primary Color : #4acc8e
+* 	Secondary Color : #111111
+* 	Primary Text color : #111111
+* 	Secondary Text color : #373737
+* 	Title Text Color & Fonts : #111111, 'Roboto', sans-serif
+* 	Body Text Color & Fonts : #373737, 'Roboto', sans-serif
+
+---------------------------------------
+	Elements Covered
+---------------------------------------
+* 	Reuse class
+*	Card
+* 	Typography
+* 	Buttons
+* 	Form Elements and theme
+* 	Sidebar
+--------------------------------------- 
+*/
+
+body {font-family: 'Roboto', sans-serif; font-size:16px; line-height:1.6; color:rgba(17,17,17,0.84); background-color:#f8f8f8;}
+
+/* 	----------------------------
+	Reuse class
+---------------------------- */
+/*Background Color*/
+.primary-bg {background-color:#4acc8e;} 
+.secondary-bg {background-color:#111111;} 
+.white-bg {background-color:#ffffff;}
+.black-bg { background-color:#4D575D;}
+.darkblue-bg {background-color:#2C343F;}
+.orange-bg { background-color:#f7912f;}
+.violet-bg { background-color:#04B5A3;}
+.green-bg { background-color:#3CAD45; }
+.lightblue-bg { background-color:#2f7af7;}
+.feedback-bg { background-color:#3c98d9;}
+.sky-bg { background-color:#65bfff;}
+/* Typography Color */
+.primary-text {color:#4d575d;}
+.secondary-text {color:#424242;}
+.orange-text {color:#f7912f;}
+.blue-text {color:#458ccc;}
+.violet-text {color:#03b5a2;}
+.tomato-text {color:#f05658;}
+.purpule-text {color:#9159b8;}
+.indigo-text {color:#3a6f8e;}
+
+/* 	----------------------------
+	Typography
+---------------------------- */
+/* Font Size */
+.pmd-display-4 {font-size:46px;line-height:1.4;}
+.pmd-display-3 {font-size:28px;}
+.pmd-display-2 {font-size:24px;}
+.pmd-display-1 {font-size:20px;}
+/* Custom Font Family */
+.ff-roboto{font-family: 'Roboto', sans-serif !important;}
+.fw-light{font-weight:300;}
+.fw-regular{font-weight:400;}
+.fw-medium{font-weight:500;}
+.fw-bold{font-weight:700;}
+/* Color & Weight style */
+h1, h2, h3, h4, h5, h6{ color:#111111;}
+h1.inverse, h2.inverse, h3.inverse, h4.inverse, h5.inverse, h6.inverse{ color:#fff;}
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong{font-weight:700;}
+/* Font size and color according to Google Material */
+h1, .h1 { font-size:46px; font-weight: 600;}
+h2, .h2 { font-size:40px; font-weight:300;}
+h3, .h3 { font-size:24px; font-weight: 600;}
+h4, .h4 { font-size:20px; font-weight: 500;}
+h5, .h5 { font-size:18px; font-weight: 500;}
+/* Other Element Style */
+em{font-style:italic;font-family: 'Roboto', sans-serif;}
+.lead {font-size:20px; margin-bottom: 48px;}
+.lead.inverse{color: #ffffff;}
+strong, b{font-weight:500; color:#262f3d;}
+label{font-weight:400;}
+p { margin-bottom:24px; color:rgba(17,17,17,0.84); }
+a{ transition:all ease-in-out 0.3s; -moz-transition:all ease-in-out 0.3s; -ms-transition:all ease-in-out 0.3s; -o-transition:all ease-in-out 0.3s; -webkit-transition:all ease-in-out 0.3s;}
+a{ color:#111111; text-decoration:none; outline:none;}
+a:hover, a:focus, a:active{color:#4acc8e;}
+	@media screen and (max-width: 1280px) { 
+		h2 { font-size:34px; margin-bottom:10px;}	
+		.lead { margin-bottom:36px; font-size: 18px;}
+	}
+	@media screen and (max-width: 991px) { 
+		h1 { font-size:32px;}
+	}
+	@media screen and (max-width: 767px){
+		.lead { font-size: 16px;}
+		h1 { font-size:26px;}	
+		h2{font-size:24px; line-height:1.3;}
+		h3{font-size:20px; line-height:1.3}
+		h4{font-size:18px; line-height:1.3}
+		a{word-break: break-word; white-space: normal; }
+	}
+
+/* 	----------------------------
+	Card
+---------------------------- */
+.pmd-card { padding-top:0;}
+.pmd-card-body{color: rgba(17,17,17,.84);}
+.pmd-card-subtitle-text { opacity:1;}
+.pmd-card:hover { transition:all ease-in-out 0.4s; -moz-transition:all ease-in-out 0.4s; -webkit-transition:all ease-in-out 0.4s; -webkit-box-shadow: 0 0 16px rgba(0,0,0,0.16), 0 0 16px rgba(0,0,0,0.23); -moz-box-shadow: 0 0 16px rgba(0,0,0,0.16), 0 0 16px rgba(0,0,0,0.23); box-shadow: 0 0 16px rgba(0,0,0,0.16), 0 0 16px rgba(0,0,0,0.23);}
+.without-subtext { margin-bottom:40px;}
+.pmd-z-depth { -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.12); box-shadow:0 1px 3px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.12);}
+.pmd-card .pmd-card-media img { width:100%;}
+.pmd-card-body .pmd-card-description { margin-bottom: 16px;}
+/* card icon with border */  
+.pmd-card-border {border:1px solid #f8f8f8;}
+.pmd-card-icon svg,
+.pmd-card-icon img { max-width:64px;}
+.pmd-card-icon svg { display:inline-block; vertical-align:middle;}
+.pmd-card-icon svg path { fill:#4acc8e;}
+.pmd-card-body .pmd-card-title-text {  margin-bottom:10px; color:#111; }
+.pmd-card-icon { padding:24px 16px 0 16px; margin-bottom: 24px;}
+
+/* Card transparent */
+.pmd-card-transparent { background:transparent;}
+.pmd-card-transparent .pmd-card-icon{padding-top:0;}
+.pmd-card-transparent .pmd-card-body{margin-bottom:0;}
+.pmd-card.pmd-card-transparent:hover{ box-shadow: none;}
+	@media screen and (max-width:767px){
+		.pmd-card.pmd-card-lastchild { margin-bottom:0;}
+		.pmd-card{ margin-bottom: 16px;}
+	}
+
+/* 	----------------------------
+	Button
+---------------------------- */
+/* Primary Button */
+.btn-primary{background-color:#4acc8e; border:#4acc8e solid 2px;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus{background-color:#38B177; color:#ffffff; border-color:#38B177;}
+/* Secondary Button */
+.btn-secondary{ background-color:#3c87da; color:#ffffff;}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active{background-color:#0047b8; color:#ffffff;}
+/* Default Button */
+.btn-default{background-color:#ffffff; border:2px solid #ffffff;  color:#111111;}
+.btn-default:hover, .btn-default:focus, .btn-default:active{ background-color:#4acc8e; border-color: #4acc8e; color:#fff;}
+/* Outline Button */
+.btn-primary.pmd-btn-outline{ background-color:transparent; border:2px solid #ffffff; color:#ffffff;}
+.btn-primary.pmd-btn-outline:hover, .btn-primary.pmd-btn-outline:focus, .btn-primary.pmd-btn-outline:active{ background-color:#4acc8e; color:#ffffff; border:2px solid #4acc8e;}
+/* Default Outline Button */
+.btn-default.pmd-btn-outline{ background-color:transparent; border:2px solid #ffffff; color:#ffffff;}
+.btn-default.pmd-btn-outline:hover, .btn-default.pmd-btn-outline:focus, .btn-default.pmd-btn-outline:active{ background-color:#ffffff; color:#4acc8e; border:2px solid #ffffff;}
+/* Fab Outline Button */
+.pmd-btn-fab.pmd-btn-outline i, .pmd-btn-fab.pmd-btn-outline span{line-height: 54px;}
+/* Button Ripple Background */
+.btn .ink{background-color:rgba(255,255,255,0.74) !important;}
+	@media screen and (max-width: 640px) {  
+		.btn.btn-lg { font-size:14px; }
+	}
+
+/* 	----------------------------
+	TextFields
+---------------------------- */
+form.form-inverse .pmd-textfield-focused{background-color:#ffffff;} 
+form.form-inverse .pmd-textfield-floating-label label{color:rgba(255,255,255,0.45);}
+form.form-inverse .pmd-textfield .form-control{ color: #ffffff;}
+form.form-inverse .pmd-textfield .form-control::-webkit-input-placeholder { color: #ffffff; opacity:0.5;}
+form.form-inverse .pmd-textfield .form-control::-moz-placeholder { color: #ffffff; opacity:0.5;}
+form.form-inverse .pmd-textfield .form-control::-ms-input-placeholder { color: #ffffff; opacity:0.5;}
+form.form-inverse .pmd-textfield .form-control:placeholder { color: #ffffff; opacity:0.5;}
+	@media screen and (max-width: 767px) { 
+		.form-group-lg.pmd-textfield .form-control { font-size:16px;}
+	}
+
+/* 	----------------------------
+	Section inverse
+---------------------------- */
+.pmd-content{ padding-left: 0; padding-right: 0; padding-top: 72px;}
+.section-inverse{ color:rgba(255,0255,255,0.78);}
+.section-inverse h1, .section-inverse .h2{ color: #fff;}
+.section-inverse .title-divider::after{background: #fff;}
+.section-inverse h1, .section-inverse h2, .section-inverse h3, .section-inverse h4, .section-inverse h5, .section-inverse h6{ color:#fff;}
+
+/* 	----------------------------
+	Sidebar
+---------------------------- */
+@media screen and (max-width: 767px){
+.pmd-navbar-sidebar {box-shadow: none;}
+.pmd-navbar-sidebar.pmd-sidebar-open {box-shadow: 2px 0 15px rgba(0,0,0,.35);}
+	body.pmd-body-open{ position: fixed !important}
+}

@@ -1,0 +1,398 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+	
+    <title>perifaCode()</title>
+    <meta name="description" content="Quantify is a free responsive one page HTML material theme built with Propeller. It is a perfect theme for a variety of uses from blogs to personal or business portfolios."/>
+	<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+	
+	<!--Google Material icon-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" media="all"/>
+    
+    <!--Propeller css-->
+    <link rel="stylesheet" href="assets/css/propeller.min.css" type="text/css" media="all"/>
+    
+    <!--Owl Carousel css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css" type="text/css" media="all"/>
+    
+    <!--Quantify css-->
+    <link rel="stylesheet" href="assets/css/quantify-theme.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/quantify.css" type="text/css" media="all"/>
+    	    	    
+</head>
+<body>
+	
+	<!----------------------------
+		Loader 
+ 	----------------------------->
+  	<div class="showbox" id="preloader">
+	  <div class="loader">
+		<div align="center" class="fond">
+		  <div class="contener_general">
+			  <div class="contener_mixte"><div class="ballcolor ball_1">&nbsp;</div></div>
+			  <div class="contener_mixte"><div class="ballcolor ball_2">&nbsp;</div></div>
+			  <div class="contener_mixte"><div class="ballcolor ball_3">&nbsp;</div></div>
+			  <div class="contener_mixte"><div class="ballcolor ball_4">&nbsp;</div></div>
+		  </div>
+		  <p class="loading-text">Loading...</p>
+		</div>
+	  </div>
+	</div>
+		
+	<!----------------------------
+		Navbar
+ 	----------------------------->
+	<nav class="navbar navbar-inverse navbar-fixed-top pmd-navbar primary-navbar">
+		<div class="container"> 
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button class="pmd-ripple-effect navbar-toggle pmd-navbar-toggle" type="button">
+                	<span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" title="" href="index.html">
+                	<img class="logo-dark" src="assets/img/logo.png" alt="Logo PerifaCode" />
+                    <img class="logo-light" src="assets/img/logo.png" alt="Logo PerifaCode" />
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse pmd-navbar-sidebar">
+                <!--Navbar Search -->
+				<div class="pmd-navbar-right-icon pull-right">
+                    <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect search-toggle" href="javascript:void(0);">
+                        <i class="material-icons md-dark pmd-sm pmd-svg-icon">search</i>
+                        <i class="material-icons md-dark pmd-sm pmd-svg-icon">close</i>
+                    </a>
+                    <form class="search-form" method="get" id="searchform">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="Search" placeholder="Search" />
+                        </div>
+                    </form>
+              	</div><!--End Navbar Search -->
+                <!-- Navbar Right -->
+              	<ul class="nav navbar-nav navbar-right">
+                	<li><a href="#intro">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#how-we-work">Como</a></li>
+                    <li><a href="#articles-to-read">Artigos</a></li>
+                    <li><a href="#subscribe">Como Participar</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <span class="nav-active"></span>
+              	</ul><!-- End Navbar Right -->
+            </div>
+      	</div>
+        <div class="pmd-sidebar-overlay"></div> 
+    </nav> <!-- Emd Navbar -->
+    
+    <!----------------------------
+		Intro section
+ 	----------------------------->
+    <div id="intro" class="intro-section owl-carousel text-center">
+		<div class="intro-img intro-banner-left" style="background-image: url('assets/img/bg-1.jpg'); background-size: cover;">
+            <div class="container">
+                <div class="intro-text">
+                    <h1 class="inverse">perifaCode()</h1>	
+                    <p class="lead inverse">A comunidade de programação da periferia</p>                
+                </div>
+            </div>
+		</div>
+		<div class="intro-img" style="background-image: url('assets/img/bg-2.jpg'); background-size: cover;">
+            <div class="container">
+                <div class="intro-text">
+                    <h1 class="inverse">perifaCode()</h1>	
+                    <p class="lead inverse">A comunidade de programação da periferia</p>                   
+                </div>
+            </div>
+		</div>
+		<div class="intro-img" style="background-image: url('assets/img/bg-3.jpg'); background-size: cover;">
+            <div class="container">
+                <div class="intro-text">
+                    <h1 class="inverse">perifaCode()</h1>	
+                    <p class="lead inverse">A comunidade de programação da periferia</p>                   
+                </div>
+            </div>
+		</div>
+	</div>
+    <!-- End Section Intro Slider -->
+      	
+    <!-- Section About Us -->
+    <div id="about" class="section">
+        <div class="container"> 
+            <h2 class="text-center">Sobre Nós</h2>
+            <p class="lead text-center">Reunimos pessoas que moram em periferias, favelas e guetos do Brasil para criar uma rede de apoio para conseguirmos vencer as barreiras sociais que nos limitam a entrada ou evolução na área de programação.</p>
+            <!-- Our Mission -->	
+            <div class="card-media row">
+                <div class="col-sm-6 col-xs-12">
+                    <img src="assets/img/our-mission.jpg" title="Our Mission" alt="Our Mission" class="img-responsive" />
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                   <div class="card-media-body">
+						<h3 class="card-media-title text-uppercase">Nossa Missão</h3>
+						<p>Inserir pessoas de origem periférica na área de programação.
+                            Sabemos que a área de desenvolvimento de software é grande e continua crescendo. 
+                            É uma área de acesso democrático, pois o conteúdo necessário para trabalhar com isso
+                            está (quase sempre) livre e aberto na internet, mas para pessoas periféricas, 
+                            com menos acesso a informação, ainda falta um certo apoio.</p>
+					</div>
+                </div>
+            </div><!-- End Our Mission -->	
+            <!-- Our Vision -->
+            <div class="card-media row">
+                <div class="col-sm-6 col-xs-12 pull-right">
+                    <img src="assets/img/our-vision.jpg" title="Our Vision" alt="Our Vision" class="img-responsive" />
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="card-media-body">
+                        <h3 class="card-media-title text-uppercase">Nossa visão</h3>
+                        <p>Como comunidade nós focamos em inserir essas pessoas o mais rápido no mercado 
+                            de trabalho, pois temos a vivência de pessoas que vieram da periferia e 
+                            confirmamos que depois que entramos nesta área a nossa vida mudou 100%.
+                            Nós estamos aqui para levar a informação para a periferia e servir de grupo 
+                            de apoio para que essas pessoas tenham as oportunidades que não tiveram ainda 
+                            para chegar nesse universo.</p>
+                    </div>
+                </div>
+            </div><!-- End Our Vision -->                     
+        </div>
+    </div><!-- End Section About Us --> 
+    
+    <!----------------------------
+		Section How We Work
+ 	----------------------------->
+    <div id="how-we-work" class="section white-bg text-center">
+        <div class="container">
+			<h2>Como Fazemos</h2>
+            <p class="lead">Os membros da comunidade contribuiem com seu tempo e conhecimento para que ela se mantenha ativa e seguindo seu propósito.</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                	<!-- How We Work Card -->
+                	<div class="pmd-card pmd-card-border pmd-z-depth">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon">
+                            <img class="svg" src="assets/img/awesome.svg" alt="Awesome" title="Awesome">
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                            <h4 class="pmd-card-title-text">Lives</h4>
+                            <p class="pmd-card-description">As lives ocorrem no nosso canal e abordam os assuntos mais votados da comunidade</p>
+                        </div>
+                	</div> <!-- End How We Work Card -->
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                	<!-- How We Work Card -->
+                	<div class="pmd-card pmd-card-border pmd-z-depth">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon">
+                            <img class="svg"  src="assets/img/innovative.svg" alt="Innovative" title="Innovative">
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                			<h4 class="pmd-card-title-text">Fórum</h4>
+                			<p class="pmd-card-description">No nosso fórum organizamos discussões sobre assuntos voltados à programação</p>	
+                		</div>
+                	</div> <!-- End How We Work Card -->
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                	<!-- How We Work Card -->
+                	<div class="pmd-card pmd-card-border pmd-z-depth">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon">
+                            <img class="svg"  src="assets/img/creative.svg" alt="Creative" title="Creative">
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                			<h4 class="pmd-card-title-text">Telegram</h4>
+                			<p class="pmd-card-description">Para facilitar nosso diálogo com todos, temos um grupo muito massa no Telegram</p>	
+                		</div>
+                	</div> <!-- End How We Work Card -->
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                	<!-- How We Work Card -->
+                	<div class="pmd-card pmd-card-border pmd-z-depth">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon">
+                           <img class="svg"  src="assets/img/experimental.svg" alt="Experimental" title="Experimental">
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                			<h4 class="pmd-card-title-text">Parcerias</h4>
+                			<p class="pmd-card-description">Sempre buscamos parcerias que viabilizam ou possam agregar o que fazemos</p>	
+                		</div>
+                	</div> <!-- End How We Work Card -->
+                </div>
+			</div>
+        </div>
+    </div><!--End Section How We Work -->
+
+    
+   
+	<!------------------------------
+		Section Articles To Read
+ 	------------------------------->   
+	<div id="articles-to-read" class="section articles-to-read">
+        <div class="container"> 
+          	<h2 class="text-center without-subtext">Artigos Interessantes</h2>
+          	<div class="row">
+            	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                	<!-- Articles Card -->
+              		<div class="pmd-card pmd-z-depth">
+						<div class="pmd-card-media">
+							<a href="https://woliveiras.com.br/posts/introdu%C3%A7%C3%A3o-ao-terminal/" target="_blank" title="Headline indicating nature of articles">
+								<img alt="" src="assets/img/news-img-1.jpg" class="img-responsive" />
+							</a>
+						</div>
+                		<div class="pmd-card-body">
+                			<h4 class="pmd-card-title-text">
+								<a href="https://woliveiras.com.br/posts/introdu%C3%A7%C3%A3o-ao-terminal/" target="_blank" title="Headline indicating nature of articles">Introdução ao Terminal</a>
+							</h4>
+                			<p class="pmd-card-description">Uma introdução ao terminal. Sua história, a diferença entre utilizar interface gráfica e utilizar o terminal e comandos iniciais.</p>
+                		</div>
+              		</div><!-- End Articles Card -->
+            	</div>
+            	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              		<!-- Articles Card -->
+                    <div class="pmd-card pmd-z-depth">
+                		<div class="pmd-card-media">
+                        	<a href="https://medium.freecodecamp.org/570-free-online-programming-computer-science-courses-you-can-start-in-april-b8ddbdda61e2" target="_blank" title="Headline indicating nature of articles.">
+                            	<img alt="" src="assets/img/news-img-2.jpg" class="img-responsive" />
+                            </a>
+                        </div>
+                		<div class="pmd-card-body">
+                			<h4 class="pmd-card-title-text">
+                  				<a href="https://medium.freecodecamp.org/570-free-online-programming-computer-science-courses-you-can-start-in-april-b8ddbdda61e2" target="_blank" title="Headline indicating nature of articles.">570 Free Online Programming & Computer Science Courses</a>
+                  			</h4>
+                			<p class="pmd-card-description">Today, more than 850 schools around the world have created thousands of free online courses, popularly known as Massive Open Online Courses or MOOCs.</p>
+                		</div>
+              		</div><!-- End Articles Card -->
+            	</div>
+            	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 visible-lg visible-md hidden-sm visible-md visible-xs">
+                	<!-- Articles Card -->
+              		<div class="pmd-card pmd-z-depth">
+                		<div class="pmd-card-media">
+                        	<a href="https://medium.com/gutoffline/como-aprender-l%C3%B3gica-de-programa%C3%A7%C3%A3o-1680139b58c5" target="_blank" title="Headline indicating nature of articles.">
+                            	<img alt="" src="assets/img/news-img-3.jpg" class="img-responsive" />
+                            </a>
+                        </div>
+                		<div class="pmd-card-body">
+                			<h4 class="pmd-card-title-text">
+                  				<a href="https://medium.com/gutoffline/como-aprender-l%C3%B3gica-de-programa%C3%A7%C3%A3o-1680139b58c5" target="_blank" title="Headline indicating nature of articles.">Como aprender lógica de programação</a>
+                  			</h4>
+                			<p class="pmd-card-description">Praticar é importante, independente de seu nível, já dizia alguém “a prática leva a perfeição” não sei se te leva a perfeição, mas com certeza nos leva muito mais longe.</p>
+                		</div>
+              		</div><!-- End Articles Card -->
+            	</div>
+            </div>
+        </div>
+    </div><!-- End Section Articles To Read --> 
+	
+	<!------------------------------
+		Section Subscribe Now
+ 	------------------------------->                
+    <div id="subscribe" class="section primary-bg section-subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-sm-12 col-xs-12">
+
+                	<div class="media pmd-subscribe">
+                    	<div class="media-left media-middle">
+                        	<h2 class="section-title text-uppercase">Como Participar </h2>
+                        </div>
+                    	<div class="media-body media-middle">
+                           <form class="form-inverse">
+								<div class="form-group form-group-lg pmd-textfield">
+									<h4>Você deve ler nosso 
+                                        <a class="join-link" href="https://github.com/perifacode/comunidade/blob/master/CONDUCT.md" target="_blank">código de conduta</a> 
+                                        e depois se cadastrar na comunidade 
+                                        <a class="join-link" href="https://docs.google.com/forms/d/e/1FAIpQLSd9ptSntk4FklmD-Lb0B0C6KL2xgijym2jx1G-FQVw8IIvxYQ/viewform" target="_blank">aqui. </a>
+                                        No final do cadastramento você receberá o link de acesso ao nosso grupo.</h4>
+								</div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div><!-- End Section download Now --> 
+
+	<!------------------------------
+		footer
+ 	------------------------------->                
+	<footer id="contact" class="section site-footer">
+        <div class="container">
+			<h2 class="text-center inverse text-capitalize">Fale com a gente</h2>
+			<!--Request form -->
+			<div class="card-form">
+			   <form class="form-inverse">
+					<div class="text-left">
+						<div class="form-group pmd-textfield pmd-textfield-floating-label">
+							<label for="regular2" class="control-label">Name</label>
+							<input type="text" id="regular2" class="form-control">
+						</div>
+						<div class="form-group pmd-textfield pmd-textfield-floating-label">
+							<label for="regular3" class="control-label">Email</label>
+							<input type="text" id="regular3" class="form-control">
+						</div>
+						<div class="form-group pmd-textfield pmd-textfield-floating-label">
+							<label for="regular4" class="control-label">Telefone</label>
+							<input type="text" id="regular4" class="form-control">
+						</div>
+
+						<div class="form-group pmd-textfield pmd-textfield-floating-label">
+							<label class="control-label">Menssagem</label>
+							<textarea class="form-control" placeholder="" ></textarea>
+						</div>
+					</div>
+					<div class="text-center">						
+						<button type="button" class="btn btn-primary pmd-ripple-effect btn-lg">Enviar</button>
+					</div>
+				</form>                        
+			</div><!-- End Request form -->
+           
+        
+        <!-- Copyrights -->
+        <div class="copyrights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <ul class="footer-menu list-inline">
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="site-info text-right">
+                            <span class="crafted">&copy; 2017. A <a href="http://propeller.in/" target="_blank">Propeller</a> Theme</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Copyrights -->
+        
+	</footer>
+	<!-- .site-footer --> 
+    
+    <!--Jquery-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    <!--Bootstrap js-->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!--Propeller js-->
+    <script type="text/javascript" src="assets/js/propeller.min.js"></script>
+    
+    <!--Owl Carousel js-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    
+    <!--Quantify custom js-->
+    <script type="text/javascript" src="js/jquery.loadie.js"></script> 
+    <script type="text/javascript" src="assets/js/quantify-global.js"></script> 
+        
+</body>
+</html>
