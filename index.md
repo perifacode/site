@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Aqui reunimos pessoas que moram em periferias, favelas e guetos do Brasil para criar uma rede de apoio para conseguirmos vencer as barreiras sociais que nos limitam a entrada ou evolução na área de programação.
+Aqui reunimos pessoas que moram em periferias, favelas e guetos do Brasil para criar uma rede de apoio para conseguirmos vencer os desafios sociais que nos limitam a entrada ou evolução na área de programação.
 
 ## Conheça nossas iniciativas
 
