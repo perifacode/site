@@ -8,7 +8,7 @@ Aqui reunimos pessoas que moram em periferias, favelas e guetos do Brasil para c
 
 Desenvolvemos diversas iniciativas para levar a vivência em programação para o mundo periférico.
 
-- [Conteúdo da comunidade](https://www.youtube.com/channel/UCs4veOoKGYLyg1db8_YwhWw)
+- [Conteúdo da comunidade](https://www.youtube.com/c/perifaCode)
 - [Eventos e Fórum](https://forum.perifacode.com/)
 
 ## Participe
