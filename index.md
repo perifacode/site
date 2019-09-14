@@ -14,6 +14,16 @@ Desenvolvemos diversas iniciativas para levar a vivência em programação para 
 - [Conteúdo da comunidade](https://www.youtube.com/c/perifaCode)
 - [Eventos e Fórum](https://forum.perifacode.com/)
 
+## Acompanhe!
+
+Nós somos seres socias e por isso estamos em **várias redes**.
+
+Siga nossos perfis para se manter sempre atualizada(o) sobre o que estamos fazendo.
+
+- [Instagram](https://www.instagram.com/perifacode)
+- [Twitter](https://twitter.com/perifacode)
+- [Facebook](https://www.facebook.com/perifaCode)
+
 ## Participe
 
 Nosso grupo existe para formar uma rede de apoio para pessoas periféricas entrarem na área de programação e/ou crescerem nessa área.
