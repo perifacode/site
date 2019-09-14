@@ -28,31 +28,16 @@ Siga nossos perfis para se manter sempre atualizada(o) sobre o que estamos fazen
 
 Nosso grupo existe para formar uma rede de apoio para pessoas periféricas entrarem na área de programação e/ou crescerem nessa área.
 
-Para isso temos um grupo no [Telegram](https://canaltech.com.br/apps/o-que-e-telegram), um aplicativo de comunicação, onde compartilhamos nossas novidades, fazemos sorteios e muito mais.
+Para isso temos um grupo no Discord, um aplicativo de comunicação muito versátil, onde conseguimos conversar por chat, através de canais bem organizados e até por voz, caso você queira fazer uma conferência com um grupo de estudos, por exemplo.
 
-Para participar faça o seguinte:
+O Discord é gratuito e você poderá utilizar no seu celular ou no navegador no seu computador (desktop).
 
-1. Leia nosso código de conduta, [neste link](/COC)
-1. Baixe o Telegram, [neste link](https://telegram.org/)
+Para participar do nosso grupo no Discord execute o seguinte passo-a-passo:
+
+1. Leia nosso código de conduta: [código de conduta](/COC)
+1. Crie seu usuário e baixe o Discord, neste link: [discordapp.com/](https://discordapp.com/)
 1. Inscreva-se no formulário de cadastro na comunidade: [perifaCode - Cadastro](http://bit.ly/cadastro-perifacode)
-1. No final do cadastramento você receberá o link de acesso ao nosso grupo do Telegram
+1. **No final do cadastramento você receberá o link de acesso** ao nosso grupo do do Discord, agora basta você clicar no link e terá acesso
+1. Acesse o grupo e conheça os canais para verificar em qual você gostaria de participar
 
-<!-- ## Coordenação da comunidade
-
-Alexandre
-Andressa Neves: @AndressaCPNeves
-Carla Vieira: @carlaprvieira
-Guilherme Vieira: @gitlherme
-Junior Rocha: @rotchajunior
-Luís Ângelo: @luisangelorjr
-Kassia Tulio
-William Oliveira: @w_oliveiras 
-
-Caso você queira entrar em contato para parcerias ou denúncias: contato@perifacode.com
-
-## Iniciativas que apoiamos
-
-Existem projetos extremamente maneiros que acreditamos que você deveria conhecer:
-
-Logos das comunidades que apoiamos
--->
+Caso você tenha qualquer problema com o Discord, acesse [este link](https://support.discordapp.com/hc/pt-br/articles/219470277-Come%C3%A7ando) para mais informações.
