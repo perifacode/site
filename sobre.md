@@ -11,3 +11,6 @@ Sabemos que a área de desenvolvimento de software e tecnologia é grande e cont
 Como comunidade nós focamos em inserir essas pessoas o mais rápido no mercado de trabalho, pois temos a vivência de pessoas que vieram da periferia e confirmamos que depois que entramos nesta área a nossa vida mudou 100%.
 
 Nós estamos aqui para levar a informação para a periferia e servir de grupo de apoio para que essas pessoas tenham as oportunidades que não tiveram ainda para chegar nesse universo.
+
+[Participe](/#participe)
+{:.btn-primary}
