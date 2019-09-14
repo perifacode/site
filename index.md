@@ -4,6 +4,9 @@ layout: default
 
 Aqui reunimos pessoas que moram em periferias, favelas e guetos do Brasil para criar uma rede de apoio para conseguirmos vencer os desafios sociais que nos limitam a entrada ou evolução na área de programação.
 
+[Saiba mais sobre nós clicando aqui.](/sobre)
+{:.btn-primary}
+
 ## Conheça nossas iniciativas
 
 Desenvolvemos diversas iniciativas para levar a vivência em programação para o mundo periférico.

@@ -1,6 +1,21 @@
 .main-header
-    background: #000
     text-align: center
 
     img
-        max-width: 500px
+        max-width: 200px
+
+    &__logo
+        background-color: #000
+
+    &__content
+        +container()
+        padding-left: 1em
+        padding-right: 1em
+        text-align: left
+
+    h1
+        text-decoration: none
+
+    em
+        font-style: italic
+        color: #797979
