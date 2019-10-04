@@ -1,5 +1,21 @@
 .main-footer
-    +container()
-    padding-top: 4em
-    padding-left: 1em
-    padding-right: 1em
+    background: $black
+    margin-top: 3em
+
+    &__content
+        +container()
+        padding-top: 4em
+        padding-left: 1em
+        padding-right: 1em
+
+    ul
+        padding-left: 0
+
+    &__nav
+        padding-bottom: 3em
+
+    span, p, a
+        color: $white
+
+    a
+        text-transform: uppercase
