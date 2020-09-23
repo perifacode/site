@@ -19,3 +19,7 @@ h6 {
 a {
   text-decoration: none;
 }
+
+main {
+  padding: 64px 0;
+}

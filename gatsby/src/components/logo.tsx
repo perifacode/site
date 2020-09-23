@@ -7,8 +7,9 @@ const Logo = () => {
     query {
       placeholderImage: file(relativePath: { eq: "logo-perifacode.png" }) {
         childImageSharp {
-          fluid(maxWidth: 200) {
-            ...GatsbyImageSharpFluid
+          fluid(maxWidth: 915, quality: 90) {
+            aspectRatio
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
