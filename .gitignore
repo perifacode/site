@@ -1,5 +1,5 @@
 **/*/_site
 **/*/.sass-cache
 **/*/.jekyll-metadata
-**/*/node_modules/
 **/*/.cache/
+node_modules/
