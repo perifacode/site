@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/home/fabiana/Projetos/Fabi/perifa/gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/fabiana/Projetos/Fabi/perifa/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/fabiana/Projetos/Fabi/perifa/gatsby/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/home/fabiana/Projetos/Fabi/perifa/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"4a9773549091c227cd2eb82ccd9c5e3a"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
