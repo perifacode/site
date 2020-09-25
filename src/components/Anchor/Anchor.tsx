@@ -13,7 +13,7 @@ const Anchor = ({ to, href, children }: AnchorProps) => {
     <StyledAnchor>
       <div className="anchor-wrapper">
         {href ? (
-          <a className="anchor-link" href={href}>
+          <a className="anchor-link" href={href} target="blank">
             {children}
           </a>
         ) : (

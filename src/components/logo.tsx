@@ -17,7 +17,7 @@ const Logo = () => {
   `)
 
   return !data?.placeholderImage ? (
-    <div>Picture not found</div>
+    <div>Imagem não encontrada</div>
   ) : (
     <Img fluid={data.placeholderImage.childImageSharp.fluid} />
   )

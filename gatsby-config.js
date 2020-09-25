@@ -1,8 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `perifaCode Site Novo`,
-    description: `Somos um grupo de apoio para pessoas de periferia.`,
-    author: `@gatsbyjs`,
+    title: `perifaCode`,
+    description: `A comunidade da periferia que fala de tecnologia. Somos um grupo de apoio para pessoas de origem periférica 
+      que estão envolvidas em algum nível com o mercado de tecnologia`,
+    author: `Comunidade PerifaCode`,
+    profile: `perifacode`,
+    social: {
+      facebook: `https://facebook.com/`,
+      linkedin: `https://linkedin.com/company/`,
+      twitter: `https://twitter.com/`,
+      github: `https://github.com/`,
+      instagram: `https://instagram.com/`,
+
+    }
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
