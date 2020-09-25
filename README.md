@@ -29,11 +29,11 @@ Pra ter a certeza do formato dos dados que vem e vão, precisamos documentar uma
 
 3. **Sass**
 
-Vamos usar a sintaxe do Sass pra ter todo o poder dos pré-processadores JS, simplificar a escrita de código e agilizar o desenvolvimento. Junto com ele, nossa próxima carta na manga.
+Vamos usar a sintaxe do Sass [Sass](https://sass-lang.com/) pra ter todo o poder dos pré-processadores JS, simplificar a escrita de código e agilizar o desenvolvimento. Junto com ele, nossa próxima carta na manga.
 
-3. **Styled Components**
+4. **Styled Components**
 
-Vamos manter tudo em família? Então estamos usando [Styled Components](https://styled-components.com/) pra criar e manter os estilos da nossa aplicação. Com ele, a gente escreve folhas de estilo como componentes React e pode usar variáveis, o que ajuda bastante em organização, consistência e evita duplicidade de código.
+Vamos manter tudo em família? Então estamos usando [Styled Components](https://styled-components.com/) pra criar e manter os estilos da nossa aplicação. Com ele, a gente escreve folhas de estilo com a sintaxe do Sass como componentes React e pode usar variáveis, o que ajuda bastante em organização, consistência e evita duplicidade de código.
 
 
 
