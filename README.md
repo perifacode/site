@@ -35,5 +35,13 @@ Vamos usar a sintaxe do Sass [Sass](https://sass-lang.com/) pra ter todo o poder
 
 Vamos manter tudo em família? Então estamos usando [Styled Components](https://styled-components.com/) pra criar e manter os estilos da nossa aplicação. Com ele, a gente escreve folhas de estilo com a sintaxe do Sass como componentes React e pode usar variáveis, o que ajuda bastante em organização, consistência e evita duplicidade de código.
 
+## Metodologias
 
+Utilizamos OOCSS e Mobile First nas nossas folhas de estilo, bem como um arquivo global de configuração de cor, tamanho e espaçamento. Atenção aos padrões e nomenclaturas, pois isso pode travar a sua Pull Request!
+
+## :nail_care: Layout
+
+O layout do site está no Figma. Você pode acessá-lo e visualizar todas as informações necessárias pra executar sua tarefa!
+- [Versão Mobile](https://www.figma.com/file/re2DrE2l45JAgMnhagyRSa/Site-Colaborativo?node-id=0%3A1)
+- [Verso Desktop](https://www.figma.com/file/re2DrE2l45JAgMnhagyRSa/Site-Colaborativo?node-id=0%3A0)
 
