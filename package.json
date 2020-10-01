@@ -29,9 +29,6 @@
   "keywords": [
     "gatsby"
   ],
-  "engines": {
-    "node": "^12.16.2"
-  },
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
