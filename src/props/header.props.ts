@@ -1,6 +1,6 @@
 import { AnchorProps } from '.'
 
-export type HeaderProps = {
-  siteTitle: string;
+export type NavProps = {
+  siteTitle?: string;
   navList: AnchorProps[];
 }

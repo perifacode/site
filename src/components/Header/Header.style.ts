@@ -12,5 +12,9 @@ const StyledHeader = styled.header`
     max-width: 127px;
     margin: 9px auto;
   }
+
+  .menu {
+    display: none;
+  }
 `
 export default StyledHeader

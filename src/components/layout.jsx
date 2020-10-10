@@ -3,13 +3,19 @@ import PropTypes from "prop-types"
 import { ThemeProvider } from 'styled-components'
 import { useStaticQuery, graphql } from "gatsby"
 import { theme } from '../utils/theme'
+import navLinks from '../../config/nav-links'
 import Header from "./Header"
 import Footer from "./Footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+
+  const {
+    site: {
+      siteMetadata: { title },
+    },
+  } = useStaticQuery(graphql`
+    query PerifaMetadata {
       site {
         siteMetadata {
           title
@@ -22,10 +28,10 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <>
         <Header 
-          navList={[]}
-          siteTitle={data.site.siteMetadata?.title || `Title`} />
+          navList={navLinks}
+          siteTitle={title || `Title`} />
         <main>{children}</main>
-        <Footer />
+        <Footer navList={navLinks} />
       </>
     </ThemeProvider>
   )

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `perifaCode`,
     description: `A comunidade da periferia que fala de tecnologia. Somos um grupo de apoio para pessoas de origem periférica 
-      que estão envolvidas em algum nível com o mercado de tecnologia`,
+    que estão envolvidas em algum nível com o mercado de tecnologia`,
     author: `Comunidade PerifaCode`,
     profile: `perifacode`,
     social: {
