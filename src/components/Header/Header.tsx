@@ -5,7 +5,7 @@ import StyledHeader from "./Header.style"
 import { HeaderProps } from "../../props"
 
 
-const Header = ({ siteTitle, navList }: HeaderProps) => {
+const Header = ({ siteTitle, navList }: HeaderProps) => {  
   return (
     <StyledHeader>
       <h1 className="logo">
