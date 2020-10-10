@@ -1,12 +1,7 @@
 import React, { ReactNode } from "react"
 import { Link } from "gatsby"
 import StyledAnchor from "./Anchor.style"
-
-export interface AnchorProps {
-  to?: string
-  href?: string
-  children: ReactNode
-}
+import { AnchorProps } from "../../props"
 
 const Anchor = ({ to, href, children }: AnchorProps) => {
   return (

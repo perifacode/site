@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const Logo = () => {
+const Logo = ({ alt }) => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "logo-perifacode.png" }) {
@@ -19,7 +19,7 @@ const Logo = () => {
   return !data?.placeholderImage ? (
     <div>Imagem não encontrada</div>
   ) : (
-    <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+    <Img alt={alt} fluid={data.placeholderImage.childImageSharp.fluid} />
   )
 }
 
