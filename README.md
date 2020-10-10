@@ -42,6 +42,6 @@ Utilizamos OOCSS e Mobile First nas nossas folhas de estilo, bem como um arquivo
 ## :nail_care: Layout
 
 O layout do site está no Figma. Você pode acessá-lo e visualizar todas as informações necessárias pra executar sua tarefa!
+
 - [Versão Mobile](https://www.figma.com/file/re2DrE2l45JAgMnhagyRSa/Site-Colaborativo?node-id=0%3A1)
 - [Verso Desktop](https://www.figma.com/file/re2DrE2l45JAgMnhagyRSa/Site-Colaborativo?node-id=5%3A0)
-

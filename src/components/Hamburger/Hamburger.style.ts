@@ -5,7 +5,7 @@ const StyledHamburger = styled.div`
   width: 28px;
   position: relative;
   cursor: pointer;
-  
+
   .button-hamburger,
   .button-hamburger::after,
   .button-hamburger::before {

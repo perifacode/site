@@ -15,7 +15,7 @@ Nós fazemos eventos para estimular pessoas periféricas sentirem vontade de ent
 
 As pessoas de regiões periféricas e/ou baixa renda não entram na área de desenvolvimento de software por falta de acesso à informação, de referência profissional (dev) por perto (como familiares e amizades) e recursos financeiros para investir no conhecimento.
 
-Como comunidade nós conseguimos ser a referência profissional, pessoas periféricas que entraram nesse meio, se tornaram referências e hoje tem a vida transformada graças a área de tecnologia.  Hoje nós temos acesso e podemos ensinar as pessoas a encontrarem a informação ou tornar a informação acessível. Nós temos recursos e podemos assistencializar quem mais necessita. E, acima de tudo, seremos uma rede de apoio para que essas pessoas não desistam de seguir na área por maiores que sejam os desafios profissionais e pessoais que elas irão enfrentar.
+Como comunidade nós conseguimos ser a referência profissional, pessoas periféricas que entraram nesse meio, se tornaram referências e hoje tem a vida transformada graças a área de tecnologia. Hoje nós temos acesso e podemos ensinar as pessoas a encontrarem a informação ou tornar a informação acessível. Nós temos recursos e podemos assistencializar quem mais necessita. E, acima de tudo, seremos uma rede de apoio para que essas pessoas não desistam de seguir na área por maiores que sejam os desafios profissionais e pessoais que elas irão enfrentar.
 
 ## Nossa missão
 

@@ -1,22 +1,22 @@
 module.exports = [
   {
-    href: '#sobre',
-    children: 'Sobre'
+    href: "#sobre",
+    children: "Sobre",
   },
   {
-    href: '#blog',
-    children: 'Blog'
+    href: "#blog",
+    children: "Blog",
   },
   {
-    href: '#eventos',
-    children: 'Eventos'
+    href: "#eventos",
+    children: "Eventos",
   },
   {
-    href: '#midia',
-    children: 'Mídia'
+    href: "#midia",
+    children: "Mídia",
   },
   {
-    href: '#organizadores',
-    children: 'Organizadores'
+    href: "#organizadores",
+    children: "Organizadores",
   },
 ]

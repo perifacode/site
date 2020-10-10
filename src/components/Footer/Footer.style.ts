@@ -14,16 +14,18 @@ const StyledFooter = styled.footer`
     height: 100%;
     justify-content: center;
 
-    &-list {
+    ul {
       align-items: center;
       background: ${({ theme }) => theme.color.brand.yellow};
       display: flex;
+      flex-direction: column;
       height: calc(100% - 60px);
       justify-content: center;
       list-style: none;
       margin: 0;
       opacity: 0;
       padding: 0;
+      left: 0;
       position: fixed;
       top: 100%;
       transition: all 0.5s ease-in-out;
@@ -32,12 +34,11 @@ const StyledFooter = styled.footer`
 
       &.open {
         opacity: 1;
-        left: 0;
         top: 0;
       }
     }
 
-    &-item {
+    li {
       position: relative;
       display: block;
       padding: ${({ theme }) => `${theme.spacing[1]}px`} 0;

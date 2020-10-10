@@ -11,8 +11,7 @@ module.exports = {
       twitter: `https://twitter.com/`,
       github: `https://github.com/`,
       instagram: `https://instagram.com/`,
-
-    }
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
