@@ -24,6 +24,8 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
+    "gatsby-plugin-sass": "^2.3.16",
+    "node-sass": "^4.14.1",
     "prettier": "2.1.1"
   },
   "keywords": [

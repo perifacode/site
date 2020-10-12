@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap');
+@import './variables';
+
+body {
+  margin: 0;
+  font-family: 'Fira Code';
+  font-size: $mobile-body1;
+  line-height: $body-line-height;
+  font-weight: normal;
+  height: 100vh;
+
+  #___gatsby,
+  #gatsby-focus-wrapper {
+    height: 100%;
+    position: relative;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto';
+  line-height: $heading-subh-line-height;
+}
+
+@each $current-color in $mobile-heading-sizes {
+  $i: index($mobile-heading-sizes, $current-color);
+  h#{$i+1}.heading { 
+      font-size: #{$current-color}px;
+  }
+}
+
+@each $current-color in $mobile-subh-sizes {
+  $i: index($mobile-subh-sizes, $current-color);
+  h#{$i+2}.subheading { 
+      font-size: #{$current-color}px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  padding: 64px 0;
+  min-height: calc(100vh - 370px);
+}

@@ -6,7 +6,7 @@ import { theme } from "../utils/theme"
 import navLinks from "../../config/nav-links"
 import Header from "./Header"
 import Footer from "./Footer"
-import "./layout.css"
+import "../styles/layout.scss"
 
 const Layout = ({ children }) => {
   const {
