@@ -45,3 +45,7 @@ O layout do site está no Figma. Você pode acessá-lo e visualizar todas as inf
 
 - [Versão Mobile](https://www.figma.com/file/re2DrE2l45JAgMnhagyRSa/Site-Colaborativo?node-id=0%3A1)
 - [Verso Desktop](https://www.figma.com/file/re2DrE2l45JAgMnhagyRSa/Site-Colaborativo?node-id=5%3A0)
+
+## :nail_care: Ambiente dev
+
+O nosso ambiente de dev está [neste endereço](https://perifacode.netlify.app/). Toda vez que seu PR for aceito, é pra lá que vão suas modificações, por enquanto. 
