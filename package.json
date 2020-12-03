@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "perifacode-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Novo site da perifaCode em Gatsby",
+  "version": "0.0.1",
+  "author": "perifaCode <perifacode@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.64",
@@ -11,7 +11,7 @@
     "gatsby-plugin-google-tagmanager": "^2.3.13",
     "gatsby-plugin-manifest": "^2.4.30",
     "gatsby-plugin-offline": "^3.2.28",
-    "gatsby-plugin-react-helmet": "^3.3.11",
+    "gatsbyq-plugin-react-helmet": "^3.3.11",
     "gatsby-plugin-sharp": "^2.6.36",
     "gatsby-plugin-styled-components": "^3.3.11",
     "gatsby-source-filesystem": "^2.3.30",
@@ -44,9 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/perifacode/site/"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/perifacode/site/issues"
   }
 }
