@@ -17,7 +17,7 @@ Faça seu [fork](http://sdfsdfsd "Fork é uma cópia do repositório para o seu 
 
 Usamos pra estruturar o site e gerenciar conteúdo. O Gatsby é baseado em React. Portanto, se vc for criar um componente inteiro, é bom
 ter esse conhecimento prévio. Mesmo se vc não conhecer o Gatsby, se souber React já consegue fazer algo.
-Você pode saber mais sobre ele [no site oficial](https://www.gatsbyjs.com/)
+Você pode saber mais sobre ele [no site oficial](https://www.gatsbyjs.com/). Obs: Para essa versão, é recomendado utilizar o Node 10.x.x, como indicado no [site oficial do Gatsby](https://www.gatsbyjs.com/tutorial/part-zero/#set-default-nodejs-version).
 
 2. **TypeScript**
 
