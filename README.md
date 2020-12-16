@@ -8,28 +8,28 @@
   Site Colaborativo
 </h1>
 
-O site é mantido e atualizado pela própria comunidade (nós por nós que fala né?). Então, se vc quiser ajudar, fica a vontade!
+O site é mantido e atualizado pela própria comunidade (nós por nós que fala né?). Então, se vc quiser ajudar, fica a vontade!<br>
 Faça seu [fork](http://sdfsdfsd "Fork é uma cópia do repositório para o seu GitHub. Vc pode saber mais nesse link. Clica ae!") e receba nossas boas vindas!
 
 ## :wrench: Caixa de ferramentas
 
 1.  **Gatsby**
 
-Usamos pra estruturar o site e gerenciar conteúdo. O Gatsby é baseado em React. Portanto, se vc for criar um componente inteiro, é bom
-ter esse conhecimento prévio. Mesmo se vc não conhecer o Gatsby, se souber React já consegue fazer algo.
+Usamos pra estruturar o site e gerenciar conteúdo. O Gatsby é baseado em React.<br>Portanto, se vc for criar um componente inteiro, é bom
+ter esse conhecimento prévio.<br>Mesmo se vc não conhecer o Gatsby, se souber React já consegue fazer algo.
 Você pode saber mais sobre ele [no site oficial](https://www.gatsbyjs.com/). Obs: Para essa versão, é recomendado utilizar o Node 10.x.x, como indicado no [site oficial do Gatsby](https://www.gatsbyjs.com/tutorial/part-zero/#set-default-nodejs-version).
 
 2. **TypeScript**
 
-Pra ter a certeza do formato dos dados que vem e vão, precisamos documentar uma estrutura pra eles, certo? Adivinha quem vem compor esse time com a gente? O [TypeScript](https://www.gatsbyjs.com/). Evitamos dados zoneados tipando com TS! :rofl:
+Pra ter a certeza do formato dos dados que vem e vão, precisamos documentar uma estrutura pra eles, certo?<br>Adivinha quem vem compor esse time com a gente? O [TypeScript](https://www.gatsbyjs.com/).<br>Evitamos dados zoneados tipando com TS! :rofl:
 
 3. **GraphQL**
 
-É, o Gatsby tem uma performance daora. Mas precisa de alguém que consiga buscar dados com uma performance tão boa quanto. O [GraphQL](https://graphql.org/) é perfeito pra isso (e tbm é padrão do Gatsby).
+É, o Gatsby tem uma performance daora. Mas precisa de alguém que consiga buscar dados com uma performance tão boa quanto.<br>O [GraphQL](https://graphql.org/) é perfeito pra isso (e tbm é padrão do Gatsby).
 
 3. **Sass**
 
-Vamos usar a sintaxe do Sass [Sass](https://sass-lang.com/) pra ter todo o poder dos pré-processadores JS, simplificar a escrita de código e agilizar o desenvolvimento. Junto com ele, nossa próxima carta na manga.
+Vamos usar a sintaxe do [Sass](https://sass-lang.com/) pra ter todo o poder dos pré-processadores JS, simplificar a escrita de código e agilizar o desenvolvimento. Junto com ele, nossa próxima carta na manga...
 
 4. **Styled Components**
 
@@ -37,7 +37,7 @@ Vamos manter tudo em família? Então estamos usando [Styled Components](https:/
 
 ## Metodologias
 
-Utilizamos OOCSS e Mobile First nas nossas folhas de estilo, bem como um arquivo global de configuração de cor, tamanho e espaçamento. Atenção aos padrões e nomenclaturas, pois isso pode travar a sua Pull Request!
+Utilizamos OOCSS e Mobile First nas nossas folhas de estilo, bem como um arquivo global de configuração de cor, tamanho e espaçamento.<br>Atenção aos padrões e nomenclaturas, pois isso pode travar a sua Pull Request!<br>Na dúvida, manda a PR que tentamos ajudar na correção :smiley:
 
 ## :nail_care: Layout
 
