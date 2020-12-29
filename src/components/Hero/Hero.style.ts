@@ -1,24 +1,29 @@
 import styled from "styled-components"
 
 const StyledHero = styled.div`
-  height: 80vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-
   background: ${({ theme }) => theme.color.brand.black};
+  padding: 0;
 
-  padding: 0px 20px;
+  .hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
 
   .hero-text h1 {
     font-family: ${({ theme }) => theme.typography.header.fontFace};
     font-size: ${({ theme }) => `${theme.typography.header.size[1]}px`};
     font-weight: ${({ theme }) => theme.typography.header.weight};
     color: ${({ theme }) => theme.color.brand.white};
-
+    text-shadow: 0.1em 0.1em 0.2em ${({ theme }) => theme.color.brand.black},
+    -2px -2px white, 2px 2px ${({ theme }) => theme.color.brand.black};
     max-width: 300px;
   }
 
@@ -35,16 +40,22 @@ const StyledHero = styled.div`
       `${theme.typography.link.variant[1].size[0]}px`};
     font-weight: ${({ theme }) => theme.typography.link.variant[1].weight};
   }
-
+  .slider {
+    min-height: 600px;
+  }
   @media only screen and (min-width: 1024px) {
-    height: 100vh;
-    padding: 0px 100px;
-
+    height: 600px;
     display: flex;
     flex-direction: row;
     justify-content: unset;
     align-items: center;
     text-align: left;
+
+    .hero-image {
+      justify-content: flex-start;
+      padding-left: 100px;
+      height: 600px;
+    }
 
     .hero-text h1 {
       font-size: ${({ theme }) => `${theme.typography.header.size[0]}px`};
