@@ -54,13 +54,12 @@ const HeaderWrapper = styled.header`
 const LegendWrapper = styled.div`
   position: absolute;
   height: 200px;
-  width: 650px;
+  width: 800px;
   top: calc(50% - 100px);
   left: 80px;
   display: flex;
-  align-items: center;
+  align-items: justify-content;
   flex-direction: column;
-  justify-content: center;
   text-align: left;
   color: #fff;
   padding: 16px;
@@ -73,10 +72,11 @@ const LegendWrapper = styled.div`
   }
 
   button {
-    background-color: ${props => props.theme.color.primary};
+    color: ${props => props.theme.color.white.regular};
+    background-color: #F5490C;
     border-radius: 4px;
-    padding: 8px 16px;
-    min-width: 100px;
+    padding: 16px;
+    width: 200px;
     margin-top: 27px;
   }
 `;
