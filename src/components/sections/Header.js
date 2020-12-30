@@ -13,7 +13,7 @@ const Header = () => (
       query {
         art_build: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "build" }
+          name: { eq: "slide-fundo-1" }
         ) {
           childImageSharp {
             fluid(maxWidth: 1400) {
@@ -31,16 +31,11 @@ const Header = () => (
             dynamicHeight
             showThumbs={false}>
               <div>
-                  <img src="https://loremflickr.com/640/360" />
-                  <p className="legend">Legend 1</p>
-              </div>
-              <div>
-                <img src="https://loremflickr.com/640/320" />
-                <p className="legend">Legend 2</p>
-              </div>
-              <div>
-              <img src="https://loremflickr.com/640/380" />
-                  <p className="legend">Legend 3</p>
+                  <Img fluid={data.art_build.childImageSharp.fluid} />
+                  <LegendWrapper>
+                    <h2>Somos mais de 1000 no nosso Discord!</h2>
+                    <button onClick={() => console.log('ban')}>Inscreva-se</button>
+                  </LegendWrapper>
               </div>
           </Carousel>
       </HeaderWrapper>
@@ -53,6 +48,36 @@ const HeaderWrapper = styled.header`
 
   @media (max-width: ${props => props.theme.screen.md}) {
     padding-top: 128px;
+  }
+`;
+
+const LegendWrapper = styled.div`
+  position: absolute;
+  height: 200px;
+  width: 650px;
+  top: calc(50% - 100px);
+  left: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  color: #fff;
+  padding: 16px;
+
+  h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.2;
+    text-shadow: 0.05em 0.05em 0.1em black;
+  }
+
+  button {
+    background-color: ${props => props.theme.color.primary};
+    border-radius: 4px;
+    padding: 8px 16px;
+    min-width: 100px;
+    margin-top: 27px;
   }
 `;
 
