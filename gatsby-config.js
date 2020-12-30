@@ -1,33 +1,31 @@
+const path = require('path');
+
 module.exports = {
-  siteMetadata: {
-    title: `perifaCode`,
-    description: `A comunidade da periferia que fala de tecnologia. Somos um grupo de apoio para pessoas de origem periférica 
-    que estão envolvidas em algum nível com o mercado de tecnologia`,
-    author: `Comunidade PerifaCode`,
-    profile: `perifacode`,
-    social: {
-      facebook: `https://facebook.com/`,
-      linkedin: `https://linkedin.com/company/`,
-      twitter: `https://twitter.com/`,
-      github: `https://github.com/`,
-      instagram: `https://instagram.com/`,
-    },
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
+      resolve: `gatsby-plugin-svgr`,
       options: {
-        id: `GTM-M6D67G8`,
-        includeInDevelopment: false,
+        svgoConfig: {
+          plugins: {
+            removeViewBox: false,
+          },
+        },
+      },
+    },
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `team`,
+        path: `${__dirname}/src/images/team`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `art`,
+        path: `${__dirname}/src/images/art`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -35,17 +33,33 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `perifaCode`,
+        short_name: `perifaCode`,
         start_url: `/`,
         background_color: `#f9ca02`,
         theme_color: `#f9ca02`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `static/favicon.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Fira Mono`, `Kanit`],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          '@components': path.resolve(__dirname, 'src/components'),
+          '@common': path.resolve(__dirname, 'src/components/common'),
+          '@images': path.resolve(__dirname, 'src/images'),
+          '@sections': path.resolve(__dirname, 'src/components/sections'),
+          '@styles': path.resolve(__dirname, 'src/styles/'),
+          '@static': path.resolve(__dirname, 'static/'),
+        },
+      },
+    },
   ],
-}
+};
