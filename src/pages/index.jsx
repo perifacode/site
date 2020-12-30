@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Anchor from "../components/Anchor"
+import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -32,6 +33,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+      <Hero />
       <h1> Você que chegou agora </h1> <p> Receba nossas boas vindas. </p>{" "}
       <p> Estamos construindo juntos uma comunidade melhor. </p>{" "}
       <p>Aproveita pra seguir a gente</p>
