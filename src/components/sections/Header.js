@@ -34,7 +34,7 @@ const Header = () => (
                   <Img fluid={data.art_build.childImageSharp.fluid} />
                   <LegendWrapper>
                     <h2>Somos mais de 1000 no nosso Discord!</h2>
-                    <a href="https://bit.ly/cadastro-perifacode">Inscreva-se</a>
+                    <a href="https://bit.ly/cadastro-perifacode" target="blank">Inscreva-se</a>
                   </LegendWrapper>
               </div>
           </Carousel>
@@ -63,6 +63,7 @@ const LegendWrapper = styled.div`
   text-align: left;
   color: #fff;
   padding: 16px;
+
 
   h2 {
     font-weight: 600;
