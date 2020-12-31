@@ -77,6 +77,8 @@ const LegendWrapper = styled.div`
     border-radius: 4px;
     padding: 16px;
     width: 200px;
+    text-decoration: none;
+    text-align: center;
     margin-top: 27px;
   }
 `;
