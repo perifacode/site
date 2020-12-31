@@ -34,7 +34,7 @@ const Header = () => (
                   <Img fluid={data.art_build.childImageSharp.fluid} />
                   <LegendWrapper>
                     <h2>Somos mais de 1000 no nosso Discord!</h2>
-                    <button onClick={() => console.log('ban')}>Inscreva-se</button>
+                    <a href="https://bit.ly/cadastro-perifacode">Inscreva-se</a>
                   </LegendWrapper>
               </div>
           </Carousel>
@@ -71,7 +71,7 @@ const LegendWrapper = styled.div`
     text-shadow: 0.05em 0.05em 0.1em black;
   }
 
-  button {
+  a {
     color: ${props => props.theme.color.white.regular};
     background-color: #F5490C;
     border-radius: 4px;
