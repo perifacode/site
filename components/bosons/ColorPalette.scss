@@ -1,0 +1,39 @@
+$colors: (
+  brand: (
+    yellow: #f9ca02,
+    white: #fcfcfd,
+    black: #242121
+  ),
+  text: (
+    primaryLight: #ffffff,
+    secondaryLight: "#d4d4d4",
+    primaryDark: #000,
+    secondaryDark: #414141
+  ),
+  bg: (
+    primaryLight: #FFF,
+    secondaryLight: #ECECEC,
+  ),
+  feedback: (
+    error: #d40d12,
+    warning: #FFA726,
+    success: #66BB6A,
+    info: #29B6F6,
+    disabled: #BDBDBD,
+  )
+) !default;
+
+@function color($color, $complementary: null) {
+  @if map-has-key($colors, $color) {
+    $type: map-get($colors, $color);
+    @if $complementary == null {
+      @if type-of($type) == map {
+        @return map-get(map-get($colors, $color), 'base');
+      } @else {
+        @return map-get($colors, $color);
+      }
+    } @else {
+      @return map-get(map-get($colors, $color), $complementary);
+    }
+  }
+}
