@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="src/images/logo-perifacode.png" width="300" />
+  <a href="https://perifacode.com">
+    <img alt="perifacode logo" src="assets/images/logo-perifacode.png" width="300" />
   </a>
 </p>
 <h1 align="center">
