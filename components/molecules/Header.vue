@@ -1,0 +1,56 @@
+<template>
+  <div class="header flex flex-col items-center">
+    <div class="header-logo justify-self-start">
+      <Logo size="small" />
+    </div>
+    <div class="header-content h-screen flex flex-col justify-center items-center">
+      <p>Já somos quase 1000 no nosso Discord.</p>
+      <Anchor href="https://discord.io/perifacode" variation="primary" text="Inscreva-se"/>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+  import Vue from 'vue'
+
+  export default Vue.extend({
+
+  })
+</script>
+
+<style lang="scss" scoped>
+.header {
+  padding: 1rem 0;
+  background-image: url('../../assets/images/bg-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  &::before {
+    background-color: rgba(0, 0, 0, 0.7);
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 100%;
+    z-index: 1;
+  }
+  .header-logo {
+    z-index: 2;
+  }
+  .header-content {
+    z-index: 2;
+    text-align: center;
+    padding: 2rem;
+    p {
+      color: color('text', 'primaryLight');
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 4rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+}
+</style>
