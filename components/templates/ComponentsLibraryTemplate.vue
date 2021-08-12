@@ -22,7 +22,7 @@
     <small>Utilize a prop <strong>variation</strong> com o valor <strong>primary</strong></small>
 
     <h3>Secondary</h3>
-    <Button text="Inscreva-se" variation="secondary" />
+    <Button text="Ver todas as postagens" variation="secondary" />
     <small>Utilize a prop <strong>variation</strong> com o valor <strong>secondary</strong></small>
 
     <h2>Links</h2>
@@ -32,7 +32,7 @@
     <small>Utilize a prop <strong>variation</strong> com o valor <strong>primary</strong></small>
 
     <h3>Secondary</h3>
-    <Anchor href="https://google.com" text="Inscreva-se" variation="secondary" />
+    <Anchor href="https://google.com" text="Ver todas as postagens" variation="secondary" />
     <small>Utilize a prop <strong>variation</strong> com o valor <strong>secondary</strong></small>
   </div>
 </template>
