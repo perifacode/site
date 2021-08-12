@@ -9,11 +9,11 @@
 </h1>
 
 O site é mantido e atualizado pela própria comunidade (nós por nós que fala né?). Então, se vc quiser ajudar, fica a vontade!
-Faça seu [fork](http://sdfsdfsd "Fork é uma cópia do repositório para o seu GitHub. Vc pode saber mais nesse link. Clica ae!") e receba nossas boas vindas!
+Faça seu [fork](https://help.github.com/articles/fork-a-repo/ "Fork é uma cópia do repositório para o seu GitHub. Vc pode saber mais nesse link. Clica ae!") e receba nossas boas vindas!
 
 ## :wrench: Caixa de ferramentas
 
-1.  **Nuxt e Nuxt Content**
+1.  **Nuxt**
 
 Usamos pra estruturar o site e gerenciar conteúdo. O Nuxt é baseado em Vue. Portanto, se vc for criar um componente inteiro, é bom
 ter esse conhecimento prévio. Mesmo se vc não conhecer o Nuxt, se souber Vue já consegue fazer algo.
@@ -46,7 +46,7 @@ O nosso ambiente de dev está [neste endereço](https://perifacode.netlify.app/)
 
   1. Faça um [fork](https://help.github.com/articles/fork-a-repo/) do repositório.
   2. Vá até o nosso [board do projeto](https://github.com/perifacode/site/projects/1) e escolha uma tarefa.
-  2. Crie uma branch para sua modificação: `git checkout -b minha-modificacao`. Obs: seguir o padrão [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
+  2. Crie uma branch para sua modificação: `git checkout -b feature/minha-modificacao` a partir da branch main. Obs: seguir o padrão [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
   3. Faça suas modificações.
   4. Commit suas modificações: `git commit -m 'feat: criando uma feature bolada. (#1)'`. Obs: seguir o padrão [Commit Lint](https://github.com/conventional-changelog/commitlint) com a id da issue em que você está atuando no final, como no exemplo desse tópico.
   5. Envie seu PR, se ele estiver de acordo com nosso repositório, ele será mergeado! :tada:
