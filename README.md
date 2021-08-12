@@ -41,3 +41,12 @@ O layout do site está no Figma. Você pode acessá-lo e visualizar todas as inf
 ## :nail_care: Ambiente dev
 
 O nosso ambiente de dev está [neste endereço](https://perifacode.netlify.app/). Toda vez que seu PR for aceito, é pra lá que vão suas modificações, por enquanto.
+
+## :black_heart: Como contribuir
+
+  1. Faça um [fork](https://help.github.com/articles/fork-a-repo/) do repositório.
+  2. Vá até o nosso [board do projeto](https://github.com/perifacode/site/projects/1) e escolha uma tarefa.
+  2. Crie uma branch para sua modificação: `git checkout -b minha-modificacao`. Obs: seguir o padrão [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
+  3. Faça suas modificações.
+  4. Commit suas modificações: `git commit -m 'feat: criando uma feature bolada. (#1)'`. Obs: seguir o padrão [Commit Lint](https://github.com/conventional-changelog/commitlint) com a id da issue em que você está atuando no final, como no exemplo desse tópico.
+  5. Envie seu PR, se ele estiver de acordo com nosso repositório, ele será mergeado! :tada:
