@@ -1,14 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'perifacode-site',
+    title: 'perifaCode',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt-br'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'A comunidade de tecnologia da periferia.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -18,6 +18,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/scss/base.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -25,15 +26,18 @@ export default {
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: [{ path: '@/components/', pathPrefix: false }],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/style-resources'
   ],
+  styleResources: {
+    scss: ['@/components/bosons/*.scss'],
+  },
+
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
