@@ -33,19 +33,21 @@ export default {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/style-resources'
   ],
+
+  // Modules: https://go.nuxtjs.dev/config-modules
+  modules: [
+     '@nuxtjs/axios',
+     '@nuxt/content',
+     '@nuxtjs/style-resources'
+   ],
+
   styleResources: {
     scss: ['@/components/bosons/*.scss'],
   },
 
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    '@nuxt/content'
-  ],
+
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
