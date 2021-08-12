@@ -1,69 +1,43 @@
-# perifacode-site
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://www.gatsbyjs.com">
+    <img alt="Gatsby" src="src/images/logo-perifacode.png" width="300" />
+  </a>
+</p>
+<h1 align="center">
+  Site Colaborativo
+</h1>
 
-## Build Setup
+O site é mantido e atualizado pela própria comunidade (nós por nós que fala né?). Então, se vc quiser ajudar, fica a vontade!
+Faça seu [fork](http://sdfsdfsd "Fork é uma cópia do repositório para o seu GitHub. Vc pode saber mais nesse link. Clica ae!") e receba nossas boas vindas!
 
-```bash
-# install dependencies
-$ yarn install
+## :wrench: Caixa de ferramentas
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+1.  **Nuxt e Nuxt Content**
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+Usamos pra estruturar o site e gerenciar conteúdo. O Nuxt é baseado em Vue. Portanto, se vc for criar um componente inteiro, é bom
+ter esse conhecimento prévio. Mesmo se vc não conhecer o Nuxt, se souber Vue já consegue fazer algo.
+Você pode saber mais sobre ele [no site oficial](https://nuxtjs.org/).
 
-# generate static project
-$ yarn generate
-```
+2. **TypeScript**
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+Pra ter a certeza do formato dos dados que vem e vão, precisamos documentar uma estrutura pra eles, certo? Adivinha quem vem compor esse time com a gente? O [TypeScript](https://www.typescriptlang.org/). Evitamos dados zoneados tipando com TS! :rofl:
 
-## Special Directories
+3. **Sass**
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Vamos usar a sintaxe do Sass [Sass](https://sass-lang.com/) pra ter todo o poder dos pré-processadores JS, simplificar a escrita de código e agilizar o desenvolvimento. Junto com ele, nossa próxima carta na manga.
 
-### `assets`
+## Metodologias
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+Utilizamos OOCSS e Mobile First nas nossas folhas de estilo, bem como um arquivo global de configuração de cor, tamanho e espaçamento. Atenção aos padrões e nomenclaturas, pois isso pode travar a sua Pull Request!
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+## :nail_care: Layout
 
-### `components`
+O layout do site está no Figma. Você pode acessá-lo e visualizar todas as informações necessárias pra executar sua tarefa!
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+- [Versão Mobile](https://www.figma.com/file/re2DrE2l45JAgMnhagyRSa/Site-Colaborativo?node-id=0%3A1)
+- [Verso Desktop](https://www.figma.com/file/re2DrE2l45JAgMnhagyRSa/Site-Colaborativo?node-id=5%3A0)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+## :nail_care: Ambiente dev
 
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+O nosso ambiente de dev está [neste endereço](https://perifacode.netlify.app/). Toda vez que seu PR for aceito, é pra lá que vão suas modificações, por enquanto.
