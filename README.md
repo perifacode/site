@@ -29,7 +29,7 @@ Vamos usar a sintaxe do [Sass](https://sass-lang.com/) pra ter todo o poder dos 
 
 ## Metodologias
 
-Utilizamos [OOCSS](https://digitalinnovation.one/artigos/padronizando-o-css-com-oocss) e Mobile First nas nossas folhas de estilo, bem como um arquivo global de configuração de cor, tamanho e espaçamento. Atenção aos padrões e nomenclaturas, pois isso pode travar a sua Pull Request!
+Utilizamos [BEM](https://desenvolvimentoparaweb.com/css/bem/) e Mobile First nas nossas folhas de estilo, bem como um arquivo global de configuração de cor, tamanho e espaçamento. Atenção aos padrões e nomenclaturas, pois isso pode travar a sua Pull Request!
 
 ## :nail_care: Layout
 
