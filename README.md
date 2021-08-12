@@ -25,7 +25,7 @@ Pra ter a certeza do formato dos dados que vem e vão, precisamos documentar uma
 
 3. **Sass**
 
-Vamos usar a sintaxe do Sass [Sass](https://sass-lang.com/) pra ter todo o poder dos pré-processadores JS, simplificar a escrita de código e agilizar o desenvolvimento. Junto com ele, nossa próxima carta na manga.
+Vamos usar a sintaxe do [Sass](https://sass-lang.com/) pra ter todo o poder dos pré-processadores JS, simplificar a escrita de código e agilizar o desenvolvimento. Junto com ele, nossa próxima carta na manga.
 
 ## Metodologias
 
