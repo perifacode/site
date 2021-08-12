@@ -47,5 +47,13 @@ a {
       background-color: rgba(color('brand', 'base'), 0.8);
     }
   }
+
+  &.secondary {
+    background-color: color('brand', 'dark');
+    color: color('brand', 'base');
+    &:hover {
+      background-color: rgba(color('brand', 'dark'), 0.8);
+    }
+  }
 }
 </style>
