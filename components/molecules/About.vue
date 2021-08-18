@@ -18,6 +18,9 @@
 .about {
   background-image: url('../../assets/images/about-bg.svg');
   height: 90vh;
+  @include screen(infinity) {
+    height: 60vh;
+  }
   .about__content {
     background: color('bg', 'primaryLight');
     border-bottom: 10px solid color('brand', 'base');
