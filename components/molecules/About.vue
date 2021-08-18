@@ -1,6 +1,6 @@
 <template>
   <div class="about flex justify-center items-center px-5">
-    <div class="about__content p-5 w-8/12">
+    <div class="about__content p-5 md:w-8/12">
       <div class="about__content__title mb-5">
         <img src="../../assets/images/about-title.svg" alt="Sobre" class="w-32 md:w-48">
       </div>
@@ -26,7 +26,7 @@
     border-bottom: 10px solid color('brand', 'base');
     .about__content__paragraph {
       font-family: $secondary-font;
-      line-height: 1.5rem;
+
     }
   }
 }

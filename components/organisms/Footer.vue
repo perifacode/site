@@ -1,7 +1,9 @@
 <template>
-  <div>
-
-  </div>
+  <footer class="footer">
+    <div>
+      <Logo size="small" />
+    </div>
+  </footer>
 </template>
 
 <script lang="ts">
