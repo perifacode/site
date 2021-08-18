@@ -37,6 +37,9 @@
       content: 'da periferia';
       text-transform: uppercase;
       margin-right: 10px;
+      @include screen(infinity) {
+        margin-right: 2rem;
+      }
     }
     &::after {
       content: 'tecnologia';
