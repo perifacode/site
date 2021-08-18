@@ -3,8 +3,8 @@
     <div class="header-logo justify-self-start">
       <Logo size="small" />
     </div>
-    <div class="header-content h-screen flex flex-col justify-center items-center">
-      <p>Já somos quase 1000 no nosso Discord.</p>
+    <div class="header-content w-full h-screen flex flex-col justify-center items-center md:items-start">
+      <p class="md:w-5/12 md:self-start">Já somos quase 1000 no nosso Discord.</p>
       <Anchor href="https://discord.io/perifacode" variation="primary" text="Quero participar"/>
     </div>
   </div>
@@ -25,6 +25,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
+  @include screen(infinity) {
+    background-image: url('../../assets/images/bg-desktop.jpg');
+  }
   &::before {
     background-color: rgba(0, 0, 0, 0.7);
     content: '';
@@ -42,6 +45,9 @@
   .header-content {
     z-index: 2;
     text-align: center;
+    @include screen(infinity) {
+      text-align: left;
+    }
     padding: 2rem;
     p {
       color: color('text', 'primaryLight');

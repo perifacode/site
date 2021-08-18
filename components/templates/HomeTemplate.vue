@@ -7,6 +7,7 @@
         <SocialListHorizontal />
       </div>
     </div>
+    <About />
   </div>
 </template>
 
