@@ -1,7 +1,7 @@
 <template>
   <div class="home-template">
     <Header />
-    <div class="home-template__social flex flex-col justify-end gap-40 py-8 items-center">
+    <div class="home-template__social flex flex-col justify-end gap-40 md:gap-32 py-8 items-center">
       <p class="home-template__social__paragraph">para o mundo da</p>
       <div class="home-template__social__list w-full">
         <SocialListHorizontal />
@@ -27,6 +27,12 @@
     font-family: $secondary-font;
     font-weight: 600;
     text-align: center;
+    @include screen(large) {
+      font-size: 4rem;
+    }
+    @include screen(infinity) {
+      font-size: 4.2rem;
+    }
     &::before {
       content: 'da periferia';
       text-transform: uppercase;
