@@ -33,7 +33,14 @@ export default {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/fontawesome'
   ],
+
+  fontawesome: {
+    icons: {
+      brands: ['faTwitter', 'faYoutube', 'faFacebookF', 'faInstagram']
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

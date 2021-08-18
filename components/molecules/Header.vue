@@ -5,7 +5,7 @@
     </div>
     <div class="header-content h-screen flex flex-col justify-center items-center">
       <p>Já somos quase 1000 no nosso Discord.</p>
-      <Anchor href="https://discord.io/perifacode" variation="primary" text="Inscreva-se"/>
+      <Anchor href="https://discord.io/perifacode" variation="primary" text="Quero participar"/>
     </div>
   </div>
 </template>
