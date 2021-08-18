@@ -1,6 +1,6 @@
 <template>
   <a :href="link" target="_blank" rel="noopener noreferrer">
-    <font-awesome-icon :icon="[type, icon]" :class="variation"/>
+    <font-awesome-icon :icon="[type, icon]" />
   </a>
 </template>
 

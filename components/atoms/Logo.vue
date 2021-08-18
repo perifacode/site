@@ -1,5 +1,5 @@
 <template>
-  <img src="../../assets/images/logo-perifacode.png" alt="Logo da perifaCode" :class="size" />
+  <img src="../../assets/images/logo-perifacode.svg" alt="Logo da perifaCode" :class="size" />
 </template>
 
 <script lang="ts">
