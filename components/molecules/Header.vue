@@ -1,9 +1,9 @@
 <template>
   <div class="header flex flex-col items-center">
-    <div class="header-logo justify-self-start">
-      <Logo size="small" />
+    <div class="header-nav justify-self-start w-full fixed h-12">
+      <MainNavigation />
     </div>
-    <div class="header-content w-full h-screen flex flex-col justify-center items-center md:items-start">
+    <div class="header-content w-full h-screen flex flex-col justify-center items-center md:items-start md:container">
       <p class="md:w-5/12 md:self-start">Já somos quase 1000 no nosso Discord.</p>
       <Anchor href="https://discord.io/perifacode" variation="primary" text="Quero participar"/>
     </div>
@@ -39,8 +39,9 @@
     width: 100%;
     z-index: 1;
   }
-  .header-logo {
-    z-index: 2;
+  .header-nav {
+    top: 0;
+    z-index: 3;
   }
   .header-content {
     z-index: 2;

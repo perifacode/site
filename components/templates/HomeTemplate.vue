@@ -48,6 +48,9 @@
       text-transform: uppercase;
       margin-left: 5px;
       color: color('brand', 'base');
+      @include screen(infinity) {
+        margin-left: 2rem;
+      }
     }
   }
   .home-template__social__list {

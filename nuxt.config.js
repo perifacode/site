@@ -38,7 +38,8 @@ export default {
 
   fontawesome: {
     icons: {
-      brands: ['faTwitter', 'faYoutube', 'faFacebookF', 'faInstagram']
+      brands: ['faTwitter', 'faYoutube', 'faFacebookF', 'faInstagram'],
+      solid: ['faBars', 'faTimes']
     }
   },
 
