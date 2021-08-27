@@ -1,8 +1,5 @@
 <template>
   <div class="header flex flex-col items-center">
-    <div class="header-nav justify-self-start w-full fixed h-12">
-      <MainNavigation />
-    </div>
     <div class="header-content w-full h-screen flex flex-col justify-center items-center md:items-start md:container">
       <p class="md:w-5/12 md:self-start">Já somos quase 1000 no nosso Discord.</p>
       <Anchor href="https://discord.io/perifacode" variation="primary" text="Quero participar"/>
