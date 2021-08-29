@@ -1,6 +1,6 @@
 <template>
-  <nav class="main-navigation flex justify-between p-5 md:items-center">
-    <div v-show="!showMenu" class="main-navigation__logo">
+  <nav class="main-navigation flex justify-between p-5 md:items-center ">
+    <div class="main-navigation__logo">
       <NuxtLink to="/">
         <Logo size="small" />
       </NuxtLink>
@@ -12,19 +12,19 @@
       </div>
       <ul v-show="showMenu" class="main-navigation__list flex flex-col items-center gap-y-5 md:gap-x-5 md:flex md:flex-row">
         <li class="mt-5 md:mt-0">
-          <NuxtLink to="/about">Sobre</NuxtLink>
+          <NuxtLink to="/sobre">Sobre</NuxtLink>
         </li>
         <li>
           <NuxtLink to="/meetups">Eventos</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/">Midia</NuxtLink>
+          <NuxtLink to="/midia">Midia</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/">Comunidade</NuxtLink>
+          <NuxtLink to="/discord">Comunidade</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/">Parceiros</NuxtLink>
+          <NuxtLink to="/parceiros">Parceiros</NuxtLink>
         </li>
       </ul>
     </div>
@@ -39,6 +39,9 @@ export default Vue.extend({
       showMenu: false
     }
   },
+  mounted() {
+    window.innerWidth > 768 ? this.showMenu = true : this.showMenu = false
+  },
   methods: {
     handleMenu() {
       this.showMenu = !this.showMenu
@@ -50,12 +53,16 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .main-navigation {
+  z-index: 3;
   background-color: color('brand', 'base');
   .main-navigation__content {
     .main-navigation__list {
       li {
         width: 100vw;
         text-align: center;
+        @include screen(infinity) {
+          width: initial;
+        }
       }
     }
   }

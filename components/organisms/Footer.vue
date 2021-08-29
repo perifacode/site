@@ -10,7 +10,7 @@
     </div>
     <Divider class="col-span-full mt-10 mb-5 md:hidden"/>
     <div class="footer__copyright col-span-full mt-5 flex flex-col md:flex-row text-center md:text-left md:place-self-start md:row-start-2 md:mt-0 md:self-end">
-      <span class="mb-3 md:mr-2 md:mb-0">&copy; perifaCode 2020.</span>
+      <span class="mb-3 md:mr-2 md:mb-0">&copy; perifaCode 2021.</span>
       <span>Todos os direitos reservados.</span>
     </div>
   </footer>
