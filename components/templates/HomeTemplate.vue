@@ -8,6 +8,7 @@
       </div>
     </div>
     <About />
+    <OrganizerCarousel />
   </div>
 </template>
 

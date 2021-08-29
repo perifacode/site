@@ -18,12 +18,12 @@
 <style lang="scss" scoped>
 .header {
   padding: 1rem 0;
-  background-image: url('../../assets/images/bg-mobile.jpg');
+  background-image: url('@/assets/images/bg-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
   @include screen(infinity) {
-    background-image: url('../../assets/images/bg-desktop.jpg');
+    background-image: url('@/assets/images/bg-desktop.jpg');
   }
   &::before {
     background-color: rgba(0, 0, 0, 0.7);
