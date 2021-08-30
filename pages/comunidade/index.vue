@@ -8,7 +8,7 @@
 export default {
   layout: 'basic-page',
   async asyncData ({ $content }) {
-    const page = await $content('sobre').fetch()
+    const page = await $content('comunidade').fetch()
 
     return {
       page
@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .nuxt-content {
   h2 {
     margin: 1rem 0;

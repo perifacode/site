@@ -1,32 +1,34 @@
 <template>
-  <nav class="main-navigation flex justify-between p-5 md:items-center ">
-    <div class="main-navigation__logo">
-      <NuxtLink to="/">
-        <Logo size="small" />
-      </NuxtLink>
-    </div>
-    <div class="main-navigation__content self-center">
-      <div class="main-navigation__action cursor-pointer md:hidden" @click="handleMenu">
-        <font-awesome-icon v-show="!showMenu" :icon="['fas', 'bars']" />
-        <font-awesome-icon v-show="showMenu" :icon="['fas', 'times']" />
+  <nav class="main-navigation p-5 flex justify-center">
+    <div class="flex justify-between md:items-center w-full md:container">
+      <div class="main-navigation__logo">
+        <NuxtLink to="/">
+          <Logo size="small" />
+        </NuxtLink>
       </div>
-      <ul v-show="showMenu" class="main-navigation__list flex flex-col items-center gap-y-5 md:gap-x-5 md:flex md:flex-row">
-        <li class="mt-5 md:mt-0">
-          <NuxtLink to="/sobre">Sobre</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/meetups">Eventos</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/midia">Midia</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/discord">Comunidade</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/parceiros">Parceiros</NuxtLink>
-        </li>
-      </ul>
+      <div class="main-navigation__content self-center">
+        <div class="main-navigation__action cursor-pointer md:hidden" @click="handleMenu">
+          <font-awesome-icon v-show="!showMenu" :icon="['fas', 'bars']" />
+          <font-awesome-icon v-show="showMenu" :icon="['fas', 'times']" />
+        </div>
+        <ul v-show="showMenu" class="main-navigation__list flex flex-col items-center gap-y-5 md:gap-x-5 md:flex md:flex-row">
+          <li class="mt-5 md:mt-0">
+            <NuxtLink to="/sobre">Sobre</NuxtLink>
+          </li>
+          <!-- <li>
+            <NuxtLink to="/eventos">Eventos</NuxtLink>
+          </li> -->
+          <!-- <li>
+            <NuxtLink to="/midia">Midia</NuxtLink>
+          </li> -->
+          <li>
+            <NuxtLink to="/comunidade">Comunidade</NuxtLink>
+          </li>
+          <!-- <li>
+            <NuxtLink to="/parceiros">Parceiros</NuxtLink>
+          </li> -->
+        </ul>
+      </div>
     </div>
   </nav>
 </template>
