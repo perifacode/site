@@ -8,7 +8,7 @@
 export default {
   layout: 'basic-page',
   async asyncData ({ $content }) {
-    const page = await $content('sobre').fetch()
+    const page = await $content('manifesto').fetch()
 
     return {
       page
