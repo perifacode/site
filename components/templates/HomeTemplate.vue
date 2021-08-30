@@ -8,7 +8,7 @@
       </div>
     </div>
     <About />
-    <Footer />
+    <OrganizerCarousel />
   </div>
 </template>
 

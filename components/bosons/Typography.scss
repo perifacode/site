@@ -3,10 +3,14 @@ $secondary-font: 'Fira Code', monospace;
 
 h1 {
   font-size: 2rem;
+  font-family: $secondary-font;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 1.5rem;
+  font-family: $secondary-font;
+  font-weight: 700;
 }
 
 h3 {
