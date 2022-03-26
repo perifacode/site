@@ -3,12 +3,10 @@ import type { GetStaticProps } from 'next';
 import { HeroBanner, HeroBannerProps } from '../components/HeroBanner';
 import { graphcms } from '../services/graphcms';
 
-const Home = ({title, background, description}: HeroBannerProps) => {
+const Home = ({heroBanner}: HeroBannerProps) => {
   return (
     <HeroBanner 
-      title={title}
-      background={background}
-      description={description}
+      heroBanner={heroBanner}
     />
   )
 }
@@ -16,18 +14,20 @@ const Home = ({title, background, description}: HeroBannerProps) => {
 export const getStaticProps: GetStaticProps = async () => {
   const query = gql`
     {
-      heroBanner(where: {slug: "hero-principal"}) {
+      heroBanner(where: {slug: "home-banner"}) {
         title,
         background {
           url
         },
-        description
+        description,
+        buttonLabel,
+        buttonLink
       }
     }
   `
-  const { heroBanner } = await graphcms.request(query)
+  const banner: HeroBannerProps = await graphcms.request(query)
   return {
-    props: {...heroBanner},
+    props: banner
   }
 }
 

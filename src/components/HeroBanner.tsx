@@ -1,17 +1,22 @@
 import { Flex, Heading, Text } from "@chakra-ui/react";
+import { LinkButton } from "./LinkButton";
 
 export type HeroBannerProps = {
-  title: string,
-  background: {
-    url: string
-  },
-  description: string,
+  heroBanner: {
+    title: string,
+    background: {
+      url: string
+    },
+    description: string,
+    buttonLabel: string,
+    buttonLink: string
+  }
 }
 
-export const HeroBanner = ({ title, background, description}: HeroBannerProps) => {
+export const HeroBanner = ({ heroBanner }: HeroBannerProps) => {
   return (
     <Flex
-      bgImage={`url(${background.url})`}
+      bgImage={`url(${heroBanner.background.url})`}
       bgRepeat="no-repeat"
       bgSize="cover"
       height="60vh"
@@ -25,8 +30,9 @@ export const HeroBanner = ({ title, background, description}: HeroBannerProps) =
         justify="center"
         pl="3rem"
       >
-        <Heading as="h2" color="white">{ title }</Heading>
-        <Text fontSize="2rem" color="white">{ description }</Text>
+        <Heading as="h2" color="white">{heroBanner.title}</Heading>
+        <Text fontSize="2rem" color="white">{heroBanner.description}</Text>
+        <LinkButton href={heroBanner.buttonLink}>{heroBanner.buttonLabel}</LinkButton>
       </Flex>
     </Flex>
   )
