@@ -1,13 +1,15 @@
 import { gql } from 'graphql-request';
 import type { GetStaticProps } from 'next';
 import { HeroBanner, HeroBannerProps } from '../components/HeroBanner';
+import { SocialSection } from '../components/SocialSection';
 import { graphcms } from '../services/graphcms';
 
 const Home = ({heroBanner}: HeroBannerProps) => {
   return (
-    <HeroBanner 
-      heroBanner={heroBanner}
-    />
+    <>
+      <HeroBanner heroBanner={heroBanner} />
+      <SocialSection />
+    </>
   )
 }
 
