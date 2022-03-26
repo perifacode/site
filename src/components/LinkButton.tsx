@@ -15,12 +15,15 @@ export const LinkButton = ({ children, href }: LinkButtonProps) => {
         my="0.5rem"
         bg="brand.primary"
         width="fit-content"
-        p="3"
+        py="3"
+        px="5"
         borderRadius={8}
         transition="all 0.2s ease-in-out"
         _hover={{
           filter: "brightness(90%)"
         }}
+        fontFamily="Fira Code, monospace"
+        fontWeight="bold"
       >
         {children}
       </ChakraLink>

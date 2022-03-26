@@ -20,12 +20,12 @@ export const HeroBanner = ({ heroBanner }: HeroBannerProps) => {
       bgRepeat="no-repeat"
       bgSize="cover"
       height="60vh"
-      width="100vw"
+      width="100%"
     >
       <Flex
         direction="column"
         height="60vh"
-        width="100vw"
+        width="100%"
         bg="blackAlpha.700"
         justify="center"
         pl="3rem"
