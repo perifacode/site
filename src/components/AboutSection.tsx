@@ -18,7 +18,7 @@ export const AboutSection = () => {
       >
         <Image src="/sobre-grafite.svg" alt="Sobre" w="200px" />
         <Text>
-        A Perifacode é uma ONG que tem com objetivo “desgourmetizar” o mercado digital, preenchido, em sua maioria, por um estereótipo ao qual precisa ser mudado para ser mais inclusivo e com esse propósito a ONG foi criada em 2019 para capacitar, discutir e fazer ouvir a voz da periferia dentro do mercado digital. 
+        A perifaCode é uma ONG que tem com objetivo “desgourmetizar” o mercado digital, preenchido, em sua maioria, por um estereótipo ao qual precisa ser mudado para ser mais inclusivo e com esse propósito a ONG foi criada em 2019 para capacitar, discutir e fazer ouvir a voz da periferia dentro do mercado digital. 
 
         Realizamos diversos eventos presenciais para capacitar esses jovens da periferia e contavam com vários grupos espalhados pelas redes sociais, contamos com uma comunidade ativa no Discord para discutirmos sobre programação e temas relacionados.
         </Text>

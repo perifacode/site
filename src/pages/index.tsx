@@ -2,15 +2,29 @@ import { gql } from 'graphql-request';
 import type { GetStaticProps } from 'next';
 import { AboutSection } from '../components/AboutSection';
 import { HeroBanner, HeroBannerProps } from '../components/HeroBanner';
+import { OrganizerProps } from '../components/Organizer';
+import { OrganizersSlide } from '../components/OrganizersSlide';
 import { SocialSection } from '../components/SocialSection';
 import { graphcms } from '../services/graphcms';
 
-const Home = ({heroBanner}: HeroBannerProps) => {
+interface HomeProps {
+  heroBanner: HeroBannerProps
+  organizers: OrganizerProps[]
+}
+
+const Home = ({heroBanner, organizers}: HomeProps) => {
   return (
     <>
-      <HeroBanner heroBanner={heroBanner} />
+      <HeroBanner 
+        title={heroBanner.title}
+        background={heroBanner.background}
+        description={heroBanner.description}
+        buttonLabel={heroBanner.buttonLabel}
+        buttonLink={heroBanner.buttonLink}
+      />
       <SocialSection />
       <AboutSection />
+      <OrganizersSlide organizers={organizers}/>
     </>
   )
 }
@@ -18,20 +32,38 @@ const Home = ({heroBanner}: HeroBannerProps) => {
 export const getStaticProps: GetStaticProps = async () => {
   const query = gql`
     {
+      organizers {
+        id
+        name
+        avatar {
+          url
+        }
+        miniBio {
+          html
+        }
+        username
+      }
       heroBanner(where: {slug: "home-banner"}) {
-        title,
+        title
         background {
           url
-        },
-        description,
-        buttonLabel,
+        }
+        description
+        buttonLabel
         buttonLink
       }
     }
   `
-  const banner: HeroBannerProps = await graphcms.request(query)
+  const { organizers, heroBanner } = await graphcms.request(query)
   return {
-    props: banner
+    props: {
+      organizers: [
+        ...organizers
+      ],
+      heroBanner: {
+        ...heroBanner
+      }
+    }
   }
 }
 
