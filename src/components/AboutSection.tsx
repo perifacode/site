@@ -11,10 +11,11 @@ export const AboutSection = () => {
     >
       <Flex 
         bg="white" 
-        p="3rem" 
         direction="column" 
-        maxWidth="800px" 
-        py="2rem"
+        maxWidth="800px"
+        px={["1rem", "3rem"]} 
+        py={["1rem", "2rem"]}
+        mx="1rem"
       >
         <Image src="/sobre-grafite.svg" alt="Sobre" w="200px" />
         <Text>
