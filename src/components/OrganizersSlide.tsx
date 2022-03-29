@@ -23,10 +23,19 @@ export const OrganizersSlide = ({ organizers }: OrganizersSlideProps) => {
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={3}
-        slidesPerView={3}
         navigation
         pagination={{ clickable: true }}
         className={styles.swiper}
+        breakpoints={
+          {
+            320: {
+              slidesPerView: 1
+            }, 
+            800: {
+              slidesPerView: 3
+            }
+          }
+        }
       >
         
         {
