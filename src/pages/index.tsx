@@ -32,7 +32,7 @@ const Home = ({heroBanner, organizers}: HomeProps) => {
 export const getStaticProps: GetStaticProps = async () => {
   const query = gql`
     {
-      organizers {
+      organizers(orderBy: slug_ASC) {
         id
         name
         avatar {
