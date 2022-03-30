@@ -3,13 +3,9 @@ import { gql } from "graphql-request"
 import { GetStaticProps } from "next"
 import { graphcms } from "../services/graphcms"
 import styles from "../styles/BasicPage.module.scss"
+import { BasicPageProps } from "../types/BasicPageProps"
 
-type CocProps = {
-  title: string
-  content: string
-}
-
-const Coc = ({ title, content }: CocProps) => {
+const Coc = ({ title, content }: BasicPageProps) => {
   return (
     <Container maxW={1180} my="2rem">
       <Heading as="h1" textTransform="uppercase" my="2rem">{title}</Heading>

@@ -4,9 +4,10 @@ import { NavItem } from "./NavItem"
 export const Navbar = () => {
   return (
     <Flex as="nav" gap="1.5rem">
-      <NavItem href="/" label="Home" />
-      <NavItem href="/about" label="About" />
-      <NavItem href="/blog" label="Blog" />
+      <NavItem href="/" label="Página inicial" />
+      <NavItem href="/sobre" label="Sobre nós" />
+      <NavItem href="/manifesto" label="Manifesto" />
+      <NavItem href="/coc" label="Código de conduta" />
     </Flex>
   )
 }

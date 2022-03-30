@@ -5,9 +5,7 @@ import { graphcms } from "../services/graphcms"
 import styles from "../styles/BasicPage.module.scss"
 import { BasicPageProps } from "../types/BasicPageProps"
 
-
-
-const Manifesto = ({ title, content }: BasicPageProps) => {
+const Sobre = ({ title, content }: BasicPageProps) => {
   return (
     <Container maxW={1180} my="2rem">
       <Heading as="h1" textTransform="uppercase" my="2rem">{title}</Heading>
@@ -19,7 +17,7 @@ const Manifesto = ({ title, content }: BasicPageProps) => {
 export const getStaticProps: GetStaticProps = async () => {
   const query = gql`
     {
-      basicPage(where: { slug: "manifesto" }) {
+      basicPage(where: { slug: "sobre" }) {
         title,
         content {
           html
@@ -38,4 +36,4 @@ export const getStaticProps: GetStaticProps = async () => {
 }
 
 
-export default Manifesto
+export default Sobre

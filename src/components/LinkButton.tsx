@@ -6,12 +6,11 @@ type LinkButtonProps = {
   href: string,
 }
 
-export const LinkButton = ({ children, href }: LinkButtonProps) => {
+export const LinkButton = ({ children, href, ...props}: LinkButtonProps) => {
   return (
     <Link href={href} passHref>
       <ChakraLink
-        target="_blank"
-        rel="noopener noreferrer"
+        {...props}
         my="0.5rem"
         bg="brand.primary"
         width="fit-content"
