@@ -15,7 +15,7 @@ export type OrganizersSlideProps = {
 export const OrganizersSlide = ({ organizers }: OrganizersSlideProps) => {
   return (
     <Flex
-      h="60vh"
+      h="70vh"
       bg="brand.primary"
       direction="column"
     >

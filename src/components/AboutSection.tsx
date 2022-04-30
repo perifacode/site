@@ -5,7 +5,7 @@ export const AboutSection = () => {
     <Flex
       bg="url('https://media.graphcms.com/BVOJKWdQQ0WJ2p2y76gG?_ga=2.139763194.899926076.1648319869-549734489.1647827264')"
       bgColor="blackAlpha.900"
-      h="60vh"
+      h={["80vh", "80vh", "60vh"]}
       justify="center"
       align="center"
     >
