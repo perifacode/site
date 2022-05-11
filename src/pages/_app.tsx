@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider resetCSS theme={theme}>
       <Head>
-        <title>perifaCode</title>
+        <title>perifaCode - a comunidade de tecnologia da periferia.</title>
       </Head>
       <Header />
       <Component {...pageProps} />
