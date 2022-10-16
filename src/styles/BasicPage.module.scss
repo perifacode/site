@@ -1,6 +1,21 @@
 .content {
+  a {
+    color: var(--chakra-colors-purple-400);
+  }
   p, li {
     line-height: 2rem;
+  }
+  table p {
+    word-break: break-word;
+    line-height: unset;
+    word-wrap: unset;
+  }
+  table {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 1em;
+    border: 1px solid black;
   }
   h2 {
     font-size: 1.5rem;

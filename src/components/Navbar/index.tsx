@@ -8,6 +8,7 @@ export const Navbar = () => {
       <NavItem href="/sobre" label="Sobre nós" />
       <NavItem href="/manifesto" label="Manifesto" />
       <NavItem href="/coc" label="Código de conduta" />
+      <NavItem href="/mentoria" label="Mentoria" />
     </Flex>
   )
 }
