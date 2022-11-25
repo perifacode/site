@@ -1,4 +1,4 @@
-import { Flex, Icon, Stack, useMediaQuery } from "@chakra-ui/react"
+import { Flex, Icon, Stack, useMediaQuery, IconButton } from "@chakra-ui/react"
 import { useState } from "react"
 import { RiCloseLine, RiMenuLine } from "react-icons/ri"
 import { Logo } from "./Logo"
@@ -9,8 +9,8 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(!isMobile)
 
   return (
-    <Flex direction={["column", "column", "row"]}>
-      <Flex as="header"
+    <Flex direction={["column", "column", "row"]} as="header">
+      <Flex 
         bg="brand.primary"
         align="center"
         justify="space-around"
@@ -19,20 +19,26 @@ export const Header = () => {
       >
         <Logo />
         <Stack display={["block", "block", "none"]}>
-          <Icon
-            as={RiMenuLine}
+          <IconButton  
+            icon={<RiMenuLine />} 
             display={isOpen ? "none" : "block"}
             cursor="pointer"
             onClick={() => setIsOpen(true)}
             fontSize="2rem"
+            aria-label="Abrir o menu" 
+            background="transparent"
           />
-          <Icon
-            as={RiCloseLine}
+
+          <IconButton  
+            icon={<RiCloseLine />} 
             display={isOpen ? "block" : "none"}
             cursor="pointer"
             onClick={() => setIsOpen(false)}
             fontSize="2rem"
+            aria-label="Fechar o menu"
+            background="transparent"
           />
+      
         </Stack>
       </Flex>
       <Stack

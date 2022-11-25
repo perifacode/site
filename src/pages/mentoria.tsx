@@ -7,9 +7,9 @@ import { BasicPageProps } from "../types/BasicPageProps"
 
 const Mentoria = ({ title, content }: BasicPageProps) => {
   return (
-    <Container maxW={1180} my="2rem">
+    <Container maxW={1180} my="2rem" as="main">
       <Heading as="h1" textTransform="uppercase" my="2rem">{title}</Heading>
-      <div className={styles.content} dangerouslySetInnerHTML={{ __html: content }} />
+      <section className={styles.content} dangerouslySetInnerHTML={{ __html: content }} />
     </Container>
   )
 }

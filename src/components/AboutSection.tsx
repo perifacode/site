@@ -1,4 +1,4 @@
-import { Flex, Image, Text } from "@chakra-ui/react"
+import { Flex, Image, Text, Heading } from "@chakra-ui/react"
 
 export const AboutSection = () => {
   return (
@@ -8,6 +8,7 @@ export const AboutSection = () => {
       h={["80vh", "80vh", "60vh"]}
       justify="center"
       align="center"
+      as="section"
     >
       <Flex 
         bg="white" 
@@ -16,9 +17,12 @@ export const AboutSection = () => {
         px={["1rem", "3rem"]} 
         py={["1rem", "2rem"]}
         mx="1rem"
+        as="article"
       >
-        <Image src="/sobre-grafite.svg" alt="Sobre" w="200px" />
-        <Text>
+        <Heading as="h2" id="about">
+          <Image src="/sobre-grafite.svg" alt="Sobre" w="200px" />
+        </Heading>
+        <Text aria-labelledby="about">
         A perifaCode é uma comunidade de tecnologia que tem com objetivo “desgourmetizar” o mercado digital, preenchido, em sua maioria, por um estereótipo ao qual precisa ser mudado para ser mais inclusivo e com esse propósito a ONG foi criada em 2019 para capacitar, discutir e fazer ouvir a voz da periferia dentro do mercado digital. 
 
         Realizamos diversos eventos presenciais para capacitar esses jovens da periferia e contamos com vários grupos espalhados pelas redes sociais, além de uma comunidade ativa no Discord para discutirmos sobre programação e temas relacionados.

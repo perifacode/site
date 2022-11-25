@@ -19,6 +19,7 @@ export const HeroBanner = ({ title, background, description, buttonLabel, button
       bgSize="cover"
       height="60vh"
       width="100%"
+      as="section"
     >
       <Flex
         direction="column"
@@ -27,6 +28,7 @@ export const HeroBanner = ({ title, background, description, buttonLabel, button
         bg="blackAlpha.700"
         justify="center"
         pl="3rem"
+        as="article"
       >
         <Heading as="h2" color="white">{title}</Heading>
         <Text fontSize="2rem" color="white">{description}</Text>

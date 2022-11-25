@@ -33,18 +33,22 @@ export const Footer = () => {
             <IconLink 
               href="https://www.youtube.com/perifacode/" 
               icon={RiYoutubeFill} 
+              aria-label="Youtube"
             />
             <IconLink 
               href="https://www.twitter.com/perifacode/" 
               icon={RiTwitterFill} 
+              aria-label="Twitter"
             />
             <IconLink 
               href="https://www.instagram.com/perifacode/" 
               icon={RiInstagramFill} 
+              aria-label="Instagram"
             />
             <IconLink 
               href="https://www.github.com/perifacode/" 
               icon={RiGithubFill} 
+              aria-label="Github"
             />
           </Flex>
       </Flex>

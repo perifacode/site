@@ -6,6 +6,7 @@ import { OrganizerProps } from '../components/Organizer';
 import { OrganizersSlide } from '../components/OrganizersSlide';
 import { SocialSection } from '../components/SocialSection';
 import { graphcms } from '../services/graphcms';
+import { VisuallyHidden } from '@chakra-ui/react';
 
 interface HomeProps {
   heroBanner: HeroBannerProps
@@ -14,7 +15,8 @@ interface HomeProps {
 
 const Home = ({heroBanner, organizers}: HomeProps) => {
   return (
-    <>
+    <main>
+      <VisuallyHidden as='h1'>Perifacode</VisuallyHidden>
       <HeroBanner 
         title={heroBanner.title}
         background={heroBanner.background}
@@ -25,7 +27,7 @@ const Home = ({heroBanner, organizers}: HomeProps) => {
       <SocialSection />
       <AboutSection />
       <OrganizersSlide organizers={organizers}/>
-    </>
+    </main>
   )
 }
 
