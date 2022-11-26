@@ -18,6 +18,7 @@ export const OrganizersSlide = ({ organizers }: OrganizersSlideProps) => {
       h="70vh"
       bg="brand.primary"
       direction="column"
+      as="section"
     >
       <Heading as="h2" py={12} textAlign="center">Organizadores</Heading>
       <Swiper
